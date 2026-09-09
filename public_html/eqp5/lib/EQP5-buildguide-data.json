@@ -1,226 +1,229 @@
 {
 	"coms": {
-		"BG_4_": {
+		"DB_BG_BOT": {
 			"type": "BG"
 		},
-		"BG_3_": {
+		"DB_BG_TOP": {
 			"type": "BG"
 		},
-		"BG_2_": {
+		"MB_BG_TOP": {
 			"type": "BG"
 		},
-		"VR5_1_": {
+		"MB_BG_BOT": {
+			"type": "BG"
+		},
+		"VR5": {
 			"type": "COM",
 			"val": "",
 			"step": "0",
 			"alt-name": null
 		},
-		"VR4_1_": {
+		"VR4": {
 			"type": "COM",
 			"val": "10kA",
 			"step": "6",
 			"alt-name": "VR4"
 		},
-		"C1_1_": {
+		"C1": {
 			"type": "COM",
 			"val": "220uF",
 			"step": "5",
 			"alt-name": "C1"
 		},
-		"C2_1_": {
+		"C2": {
 			"type": "COM",
 			"val": "220uf",
 			"step": "5",
 			"alt-name": "C2"
 		},
-        "C3_1_": {
+        "C3": {
 			"type": "COM",
 			"val": "6.8uf",
 			"step": "5",
 			"alt-name": "C3"
 		},
-        "C4_1_": {
+        "C4": {
 			"type": "COM",
 			"val": "6.8uf",
 			"step": "5",
 			"alt-name": "C4"
 		},
-        "C5_1_": {
-			"type": "COM",
-			"val": "22p",
-			"step": "3",
-			"alt-name": "C8"
-		},
-        "C8_1_": {
+        "C5": {
 			"type": "COM",
 			"val": "22p",
 			"step": "3",
 			"alt-name": "C5"
 		},
-        "RA3_1_": {
+        "C8": {
+			"type": "COM",
+			"val": "22p",
+			"step": "3",
+			"alt-name": "C8"
+		},
+        "RA1": {
 			"type": "COM",
 			"val": "100k Array",
 			"step": "3",
 			"alt-name": "RA1"
 		},
-        "RA1_4_": {
+        "RA2": {
 			"type": "COM",
 			"val": "10k Array",
 			"step": "3",
 			"alt-name": "RA2"
 		},
-        "RA1_3_": {
+        "RA3": {
 			"type": "COM",
 			"val": "10k Array",
 			"step": "3",
 			"alt-name": "RA3"
 		},
-        "C12_1_": {
+        "C12": {
 			"type": "COM",
 			"val": ".1uf",
 			"step": "3",
 			"alt-name": "C12"
 		},
-        "C14_1_": {
+        "C14": {
 			"type": "COM",
 			"val": ".1uf",
 			"step": "3",
 			"alt-name": "C14"
 		},
-        "C9_6_": {
+        "CB4": {
 			"type": "COM",
 			"val": ".1uf",
 			"step": "3",
 			"alt-name": "CB4"
 		},
-        "C9_7_": {
+        "CB2": {
 			"type": "COM",
 			"val": ".1uf",
 			"step": "3",
 			"alt-name": "CB2"
 		},
-        "C9_5_": {
+        "CB3": {
 			"type": "COM",
 			"val": ".1uf",
 			"step": "3",
 			"alt-name": "CB3"
 		},
-        "C9_8_": {
+        "CB1": {
 			"type": "COM",
 			"val": ".1uf",
 			"step": "3",
 			"alt-name": "CB1"
 		},
-        "C9_9_": {
+        "C9": {
 			"type": "COM",
 			"val": "100pf",
 			"step": "3",
 			"alt-name": "C9"
 		},
-        "C10_1_": {
+        "C10": {
 			"type": "COM",
 			"val": "100pf",
 			"step": "3",
 			"alt-name": "C10"
 		},
-        "C7_1_": {
+        "C7": {
 			"type": "COM",
 			"val": "22uf",
 			"step": "4",
 			"alt-name": "C7"
 		},
-        "VR5_1_": {
+        "VR5": {
 			"type": "COM",
 			"val": "2K Pot",
 			"step": "3",
 			"alt-name": "VR5"
 		},
-		"C6_1_": {
+		"C6": {
 			"type": "COM",
 			"val": "100uf",
 			"step": "5",
 			"alt-name": "C6"
 		},
-		"C11_1_": {
+		"C11": {
 			"type": "COM",
 			"val": "100uf",
 			"step": "5",
 			"alt-name": "C11"
 		},
-		"C13_1_": {
+		"C13": {
 			"type": "COM",
 			"val": "100uf",
 			"step": "5",
 			"alt-name": "C13"
 		},
-		"C15_1_": {
+		"C15": {
 			"type": "COM",
 			"val": "5nf / 4.7nf",
 			"step": "4",
 			"alt-name": "C15"
 		},
-		"C16_1_": {
+		"C16": {
 			"type": "COM",
 			"val": "2.2nF",
 			"step": "4",
 			"alt-name": "C16"
 		},
-        "C17_1_": {
+        "C17": {
 			"type": "COM",
 			"val": "68nf",
 			"step": "4",
 			"alt-name": "C17"
 		},
-        "C18_1_": {
+        "C18": {
 			"type": "COM",
 			"val": "68nf",
 			"step": "4",
 			"alt-name": "C18"
 		},
-        "C19_1_": {
+        "C19": {
 			"type": "COM",
 			"val": "68nf",
 			"step": "4",
 			"alt-name": "C19"
 		},
-        "C20_1_": {
+        "C20": {
 			"type": "COM",
 			"val": "18nf",
 			"step": "4",
 			"alt-name": "C20"
 		},
-        "C21_1_": {
+        "C21": {
 			"type": "COM",
 			"val": "39nf",
 			"step": "4",
 			"alt-name": "C21"
 		},
-        "C22_1_": {
+        "C22": {
 			"type": "COM",
 			"val": "820nf",
 			"step": "4",
 			"alt-name": "C22"
 		},
-        "C23_1_": {
+        "C23": {
 			"type": "COM",
 			"val": "390nf",
 			"step": "4",
 			"alt-name": "C23"
 		},
-        "C24_1_": {
+        "C24": {
 			"type": "COM",
 			"val": "150nf",
 			"step": "4",
 			"alt-name": "C24"
 		},
-		"C26_1_": {
+		"C26": {
 			"type": "COM",
 			"val": "+220uf",
 			"step": "9",
 			"alt-name": "C26",
             "optional": true
 		},
-        "C25_1_": {
+        "C25": {
 			"type": "COM",
 			"val": "100p",
 			"step": "9",
@@ -228,19 +231,19 @@
             "optional": true
 		},
         
-        "F1_1_": {
+        "F1": {
 			"type": "COM",
 			"val": "Fuse",
 			"step": "4",
 			"alt-name": "F1"
 		},
-        "F2_1_": {
+        "F2": {
 			"type": "COM",
 			"val": "Fuse",
 			"step": "4",
 			"alt-name": "F2"
 		},
-		"CON2B_1_": {
+		"CON2B": {
 			"type": "COM",
 			"val": "Header",
 			"step": "7",
@@ -252,74 +255,74 @@
 			"step": "7",
 			"alt-name": "CON2B"
 		},
-		"CON1_1_": {
+		"CON1": {
 			"type": "COM",
 			"val": "header",
 			"step": "2",
 			"alt-name": "CON1"
 		},
-		"CON2A_1_": {
+		"CON2A": {
 			"type": "COM",
 			"val": "SOCKET",
 			"step": "6",
 			"alt-name": "CON2A"
 		},
-		"CON3A_1_": {
+		"CON3A": {
 			"type": "COM",
 			"val": "SOCKET",
 			"step": "6",
 			"alt-name": "CON3A"
 		},
-		"VR3_1_": {
+		"VR3": {
 			"type": "COM",
 			"val": "1kB",
 			"step": "6",
 			"alt-name": "VR1"
 		},
-		"DOA_Sockets_1_": {
+		"DOA_Sockets": {
 			"type": "COM",
 			"val": "Socket",
 			"step": "9",
 			"alt-name": "DOA",
             "optional": true
 		},
-		"IC1_1_": {
+		"IC1": {
 			"type": "COM",
 			"val": "NE5532",
 			"step": "8",
 			"alt-name": "IC1"
 		},
-		"IC1_Socket_1_": {
+		"IC1_Socket": {
 			"type": "COM",
 			"val": "IC socket",
 			"step": "2",
 			"alt-name": "IC1"
 		},
-		"IC2_2_": {
+		"IC2": {
 			"type": "COM",
 			"val": "NE5532",
 			"step": "8",
 			"alt-name": "IC2"
 		},
-		"IC2_Socket_1_": {
+		"IC2_Socket": {
 			"type": "COM",
 			"val": "IC socket",
 			"step": "2",
 			"alt-name": "IC2"
 		},
-		"L1_1_": {
+		"L1": {
 			"type": "COM",
 			"val": "47mh",
 			"step": "5",
 			"alt-name": "L1"
 		},
-        "H1_1_": {
+        "H1": {
 			"type": "COM",
 			"val": "BRACKET",
 			"step": "6",
 			"alt-name": "H1"
 		},
-        "H2_1_": {
+        "H2": {
 			"type": "COM",
 			"val": "BRACKET",
 			"step": "6",
@@ -337,13 +340,13 @@
 			"step": "7",
 			"alt-name": "H4"
 		},
-		"LED1_1_": {
+		"LED1": {
 			"type": "COM",
 			"val": "Red",
 			"step": "3",
 			"alt-name": "LED1"
 		},
-		"LED2_1_": {
+		"LED2": {
 			"type": "COM",
 			"val": "Red",
 			"step": "3",
@@ -355,112 +358,112 @@
 			"step": "7",
 			"alt-name": "LED3"
 		},
-		"VR2_1_": {
+		"VR2": {
 			"type": "COM",
 			"val": "100kA",
 			"step": "6",
 			"alt-name": "VR3"
 		},
-		"X1_1_": {
+		"X1": {
 			"type": "COM",
 			"val": "Vintage",
 			"step": "9",
 			"alt-name": "X1",
             "optional": true
 		},
-        "R1_1_": {
+        "R1": {
 			"type": "COM",
 			"val": "750R",
 			"step": "1",
 			"alt-name": "R1"
 		},
-		"R2_1_": {
+		"R2": {
 			"type": "COM",
 			"val": "15K",
 			"step": "1",
 			"alt-name": "R2"
 		},
-		"R3_1_": {
+		"R3": {
 			"type": "COM",
 			"val": "2.7K",
 			"step": "1",
 			"alt-name": "R3"
 		},
-		"R4_1_": {
+		"R4": {
 			"type": "COM",
 			"val": "100R",
 			"step": "1",
 			"alt-name": "R4"
 		},
-		"R5_1_": {
+		"R5": {
 			"type": "COM",
 			"val": "100R",
 			"step": "1",
 			"alt-name": "R5"
 		},
-		"R6_1_": {
+		"R6": {
 			"type": "COM",
 			"val": "47K",
 			"step": "1",
 			"alt-name": "R6"
 		},
-		"R7_1_": {
+		"R7": {
 			"type": "COM",
 			"val": "47K",
 			"step": "1",
 			"alt-name": "R7"
 		},
-		"R8_1_": {
+		"R8": {
 			"type": "COM",
 			"val": "75R",
 			"step": "1",
 			"alt-name": "R8"
 		},
-		"R9_1_": {
+		"R9": {
 			"type": "COM",
 			"val": "1K",
 			"step": "1",
 			"alt-name": "R9"
 		},
-		"R10_1_": {
+		"R10": {
 			"type": "COM",
 			"val": "1M",
 			"step": "1",
 			"alt-name": "R10"
 		},
-		"R11_1_": {
+		"R11": {
 			"type": "COM",
 			"val": "510R",
 			"step": "1",
 			"alt-name": "R11"
 		},
-		"R12_1_": {
+		"R12": {
 			"type": "COM",
 			"val": "47K",
 			"step": "1",
 			"alt-name": "R12"
 		},
-		"R13_1_": {
+		"R13": {
 			"type": "COM",
 			"val": "47K",
 			"step": "1",
 			"alt-name": "R13"
 		},
-		"R14_1_": {
+		"R14": {
 			"type": "COM",
 			"val": "15k",
 			"step": "9",
 			"alt-name": "R14",
             "optional": true
 		},
-		"R15_1_": {
+		"R15": {
 			"type": "COM",
 			"val": "2.7k",
 			"step": "9",
 			"alt-name": "R15",
             "optional": true
 		},
-		"RLED_1_": {
+		"RLED": {
 			"type": "COM",
 			"val": "4.7K",
 			"step": "1",
@@ -496,28 +499,28 @@
 			"step": "7",
 			"alt-name": "SW5"
 		},
-		"VR1_1_": {
+		"VR1": {
 			"type": "COM",
 			"val": "10kB",
 			"step": "6",
 			"alt-name": "VR2"
 		},
-		"MB_1_": {
+		"MB": {
 			"type": "PCB"
 		},
 		"DB": {
 			"type": "PCB"
 		},
-		"TOP_2_": {
+		"TOP_MB": {
 			"type": "SIDE"
 		},
-		"TOP_1_": {
+		"BOT_MB": {
 			"type": "SIDE"
 		},
-		"BOT_1_": {
+		"TOP_DB": {
 			"type": "SIDE"
 		},
-		"BOT": {
+		"BOT_DB": {
 			"type": "SIDE"
 		}
 	},
