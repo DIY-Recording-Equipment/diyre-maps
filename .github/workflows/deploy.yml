@@ -1,0 +1,43 @@
+name: Deploy to SiteGround
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    # Runs on the same self-hosted runner used by diyre-libdoc and
+    # diyre-pico-manuals (registered at the DIY-Recording-Equipment org
+    # level, so it's already available here too). SiteGround appears to
+    # block/drop SSH connections from GitHub-hosted runners' datacenter IP
+    # ranges, hence self-hosted.
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # No build step: unlike diyre-libdoc (11ty) or diyre-pico-manuals
+      # (a PHP static-site script), public_html/ here is already the
+      # served output -- plain HTML/JS/CSS committed as-is.
+
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SITEGROUND_SSH_KEY }}
+
+      - name: Trust SiteGround host key
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "${{ secrets.SITEGROUND_SSH_PORT }}" "${{ secrets.SITEGROUND_SSH_HOST }}" >> ~/.ssh/known_hosts
+
+      # No --delete: files removed locally are left in place remotely rather
+      # than being destructively removed. Add --delete once you've confirmed
+      # SITEGROUND_REMOTE_PATH points at a directory containing *only* this
+      # site's files.
+      - name: Deploy over SSH (rsync)
+        run: |
+          rsync -avz \
+            -e "ssh -p ${{ secrets.SITEGROUND_SSH_PORT }}" \
+            public_html/ \
+            "${{ secrets.SITEGROUND_SSH_USER }}@${{ secrets.SITEGROUND_SSH_HOST }}:${{ secrets.SITEGROUND_REMOTE_PATH }}"

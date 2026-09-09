@@ -1,0 +1,8 @@
+# Disable SiteGround SuperCacher (Dynamic Cache / NGINX Direct Delivery) for
+# this site. It's a 100% static build with no PHP/DB backend, so the caching
+# layer has no expensive backend work to save -- it was only adding a
+# staleness window after each deploy, requiring a manual purge every time.
+# Same fix as diyre-libdoc and manuals.diy.re (pico-manuals).
+<IfModule mod_headers.c>
+Header set Cache-Control "private"
+</IfModule>
