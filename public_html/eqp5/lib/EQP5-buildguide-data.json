@@ -155,7 +155,7 @@
 		},
 		"C15_1_": {
 			"type": "COM",
-			"val": "5nf",
+			"val": "5nf / 4.7nf",
 			"step": "4",
 			"alt-name": "C15"
 		},
