@@ -1,0 +1,422 @@
+{
+  "coms": {
+    "MB": {
+      "type": "PCB"
+    },
+    "TOP": {
+      "type": "SIDE"
+    },
+    "BG": {
+      "type": "BG"
+    },
+    "U1": {
+      "type": "COM",
+      "val": "Relay",
+      "step": "6",
+      "alt-name": "U1"
+    },
+    "R14": {
+      "type": "COM",
+      "val": "47k",
+      "step": "1",
+      "alt-name": "R14"
+    },
+    "R13": {
+      "type": "COM",
+      "val": "10k",
+      "step": "1",
+      "alt-name": "R13"
+    },
+    "R12": {
+      "type": "COM",
+      "val": "470k",
+      "step": "1",
+      "alt-name": "R12"
+    },
+    "R11": {
+      "type": "COM",
+      "val": "2.2k",
+      "step": "1",
+      "alt-name": "R11"
+    },
+    "R10": {
+      "type": "COM",
+      "val": "10k",
+      "step": "1",
+      "alt-name": "R10"
+    },
+    "R9": {
+      "type": "COM",
+      "val": "6.8k",
+      "step": "1",
+      "alt-name": "R9"
+    },
+    "R8": {
+      "type": "COM",
+      "val": "6.8k",
+      "step": "1",
+      "alt-name": "R8"
+    },
+    "R7": {
+      "type": "COM",
+      "val": "47r",
+      "step": "1",
+      "alt-name": "R7"
+    },
+    "R6": {
+      "type": "COM",
+      "val": "47r",
+      "step": "1",
+      "alt-name": "R6"
+    },
+    "R5": {
+      "type": "COM",
+      "val": "6.8k",
+      "step": "1",
+      "alt-name": "R5"
+    },
+    "R4": {
+      "type": "COM",
+      "val": "6.8k",
+      "step": "1",
+      "alt-name": "R4"
+    },
+    "R3": {
+      "type": "COM",
+      "val": "47k",
+      "step": "1",
+      "alt-name": "R3"
+    },
+    "R2": {
+      "type": "COM",
+      "val": "47r",
+      "step": "1",
+      "alt-name": "R2"
+    },
+    "R1": {
+      "type": "COM",
+      "val": "47r",
+      "step": "1",
+      "alt-name": "R1"
+    },
+    "Q2": {
+      "type": "COM",
+      "val": "BC337",
+      "step": "2",
+      "alt-name": "Q2"
+    },
+    "Q1": {
+      "type": "COM",
+      "val": "BC327",
+      "step": "2",
+      "alt-name": "Q1"
+    },
+    "L3": {
+      "type": "COM",
+      "val": "470u",
+      "step": "6",
+      "alt-name": "L3"
+    },
+    "L2": {
+      "type": "COM",
+      "val": "470u",
+      "step": "6",
+      "alt-name": "L2"
+    },
+    "L1": {
+      "type": "COM",
+      "val": "470u",
+      "step": "6",
+      "alt-name": "L1"
+    },
+    "J10": {
+      "type": "COM",
+      "val": "Power In",
+      "step": "7",
+      "alt-name": "J10"
+    },
+    "J9": {
+      "type": "COM",
+      "val": "Power Thru",
+      "step": "7",
+      "alt-name": "J9"
+    },
+    "J8": {
+      "type": "COM",
+      "val": "XLR IN",
+      "step": "7",
+      "alt-name": "J8"
+    },
+    "J7": {
+      "type": "COM",
+      "val": "Combo IN",
+      "step": "7",
+      "alt-name": "J7"
+    },
+    "J6": {
+      "type": "COM",
+      "val": "XLR OUT",
+      "step": "7",
+      "alt-name": "J6"
+    },
+    "J5": {
+      "type": "COM",
+      "val": "TRS OUT",
+      "step": "7",
+      "alt-name": "J5"
+    },
+    "J4": {
+      "type": "COM",
+      "val": "XLR IN",
+      "step": "7",
+      "alt-name": "J4"
+    },
+    "J3": {
+      "type": "COM",
+      "val": "Combo IN",
+      "step": "7",
+      "alt-name": "J3"
+    },
+    "J2": {
+      "type": "COM",
+      "val": "XLR OUT",
+      "step": "7",
+      "alt-name": "J2"
+    },
+    "J1": {
+      "type": "COM",
+      "val": "TRS OUT",
+      "step": "7",
+      "alt-name": "J1"
+    },
+    "IC2_Socket": {
+      "type": "COM",
+      "val": "DIP8",
+      "step": "1",
+      "alt-name": "IC2_Socket"
+    },
+    "IC2": {
+      "type": "COM",
+      "val": "1256",
+      "step": "2",
+      "alt-name": "IC2"
+    },
+    "IC1_Socket": {
+      "type": "COM",
+      "val": "DIP8",
+      "step": "2",
+      "alt-name": "IC1_Socket"
+    },
+    "IC1": {
+      "type": "COM",
+      "val": "1256",
+      "step": "2",
+      "alt-name": "IC1"
+    },
+    "D2": {
+      "type": "COM",
+      "val": "5.6v Zener",
+      "step": "4",
+      "alt-name": "D2"
+    },
+    "D1": {
+      "type": "COM",
+      "val": "1N4004",
+      "step": "4",
+      "alt-name": "D1"
+    },
+    "C16": {
+      "type": "COM",
+      "val": "100u/63v",
+      "step": "6",
+      "alt-name": "C16"
+    },
+    "C15": {
+      "type": "COM",
+      "val": "2200u",
+      "step": "6",
+      "alt-name": "C15"
+    },
+    "C14": {
+      "type": "COM",
+      "val": "2200u",
+      "step": "6",
+      "alt-name": "C14"
+    },
+    "C13": {
+      "type": "COM",
+      "val": "2200u",
+      "step": "6",
+      "alt-name": "C13"
+    },
+    "C12": {
+      "type": "COM",
+      "val": "2200u",
+      "step": "6",
+      "alt-name": "C12"
+    },
+    "C9": {
+      "type": "COM",
+      "val": "100u/63v",
+      "step": "6",
+      "alt-name": "C9"
+    },
+    "C5": {
+      "type": "COM",
+      "val": "100u",
+      "step": "6",
+      "alt-name": "C5"
+    },
+    "C1": {
+      "type": "COM",
+      "val": "100u",
+      "step": "6",
+      "alt-name": "C1"
+    },
+    "CON2A": {
+      "type": "COM",
+      "val": "DIN 41612 Female",
+      "step": "5",
+      "alt-name": "CON2A"
+    },
+    "CON2A_Screw_2": {
+      "type": "COM",
+      "val": " ",
+      "step": "5",
+      "alt-name": "CON2A_Screw_2"
+    },
+    "CON2A_Screw_1": {
+      "type": "COM",
+      "val": " ",
+      "step": "5",
+      "alt-name": "CON2A_Screw_1"
+    },
+    "CON1A": {
+      "type": "COM",
+      "val": "DIN 41612 Female",
+      "step": "5",
+      "alt-name": "CON1A"
+    },
+    "CON1A_Screw_2": {
+      "type": "COM",
+      "val": " ",
+      "step": "5",
+      "alt-name": "CON1A_Screw_2"
+    },
+    "CON1A_Screw_1": {
+      "type": "COM",
+      "val": " ",
+      "step": "5",
+      "alt-name": "CON1A_Screw_1"
+    },
+    "C11": {
+      "type": "COM",
+      "val": ".1u",
+      "step": "3",
+      "alt-name": "C11"
+    },
+    "C10": {
+      "type": "COM",
+      "val": ".1u",
+      "step": "3",
+      "alt-name": "C10"
+    },
+    "C8": {
+      "type": "COM",
+      "val": "47p",
+      "step": "4",
+      "alt-name": "C8"
+    },
+    "C7": {
+      "type": "COM",
+      "val": "470p",
+      "step": "4",
+      "alt-name": "C7"
+    },
+    "C6": {
+      "type": "COM",
+      "val": "470p",
+      "step": "4",
+      "alt-name": "C6"
+    },
+    "C4": {
+      "type": "COM",
+      "val": "47p",
+      "step": "4",
+      "alt-name": "C4"
+    },
+    "C3": {
+      "type": "COM",
+      "val": "470p",
+      "step": "4",
+      "alt-name": "C3"
+    },
+    "C2": {
+      "type": "COM",
+      "val": "470p",
+      "step": "4",
+      "alt-name": "C2"
+    },
+    "CB4": {
+      "type": "COM",
+      "val": ".1u",
+      "step": "3",
+      "alt-name": "CB4"
+    },
+    "CB3": {
+      "type": "COM",
+      "val": ".1u",
+      "step": "3",
+      "alt-name": "CB3"
+    },
+    "CB2": {
+      "type": "COM",
+      "val": ".1u",
+      "step": "3",
+      "alt-name": "CB2"
+    },
+    "CB1": {
+      "type": "COM",
+      "val": ".1u",
+      "step": "3",
+      "alt-name": "CB1"
+    }
+  },
+  "steps": {
+    "1": "<a href='http://manuals.diy.re/duo#mcb_toc_head5' target='_blank'>Bag 1 in Assembly Guide</a>",
+    "2": "<a href='http://manuals.diy.re/duo#mcb_toc_head11' target='_blank'>Bag 2.1 in Assembly Guide</a>",
+    "3": "<a href='http://manuals.diy.re/duo#mcb_toc_head11' target='_blank'>Bag 2.2 in Assembly Guide</a>",
+    "4": "<a href='http://manuals.diy.re/duo#mcb_toc_head11' target='_blank'>Bag 2.3 in Assembly Guide</a>",
+    "5": "<a href='http://manuals.diy.re/duo#mcb_toc_head18' target='_blank'>Bag 3 in Assembly Guide</a>",
+    "6": "<a href='http://manuals.diy.re/duo#mcb_toc_head20' target='_blank'>Bag 4 in Assembly Guide</a>",
+    "7": "<a href='http://manuals.diy.re/duo#mcb_toc_head24' target='_blank'>Bag 5 in Assembly Guide</a>",
+    "T1": [
+      "Bag 1",
+      "I/O Board Resistors"
+    ],
+    "T2": [
+      "Bag 2.1",
+      "I/O Board ICs & Transistors"
+    ],
+    "T3": [
+      "Bag 2.2",
+      "I/O Board Caps"
+    ],
+    "T4": [
+      "Bag 2.3",
+      "I/O Board Caps & Diodes"
+    ],
+    "T5": [
+      "Bag 3",
+      "I/O Board Connectors"
+    ],
+    "T6": [
+      "Bag 4",
+      "I/O Board Large Capacitors, Inductors, and Relay (Bag 4)"
+    ],
+    "T7": [
+      "Bag 5",
+      "Jacks"
+    ]
+  }
+}

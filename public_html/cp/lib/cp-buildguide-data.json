@@ -1,0 +1,430 @@
+{
+  "coms": {
+    "MB": {
+      "type": "PCB"
+    },
+    "DB": {
+      "type": "PCB"
+    },
+    "BOT_1_": {
+      "type": "SIDE"
+    },
+    "TOP_2_": {
+      "type": "SIDE"
+    },
+    "BOT_2_": {
+      "type": "SIDE"
+    },
+    "TOP_1_": {
+      "type": "SIDE"
+    },
+    "BG_5_": {
+      "type": "BG"
+    },
+    "BG_3_": {
+      "type": "BG"
+    },
+    "BG_4_": {
+      "type": "BG"
+    },
+    "PARTS_5_": {
+      "type": "PARTS"
+    },
+    "PARTS_3_": {
+      "type": "PARTS"
+    },
+    "PARTS_4_": {
+      "type": "PARTS"
+    },
+    "Bracket_1": {
+      "type": "COM",
+      "val": "MB",
+      "step": "5",
+      "alt-name": "Bracket #1"
+    },
+    "Bracket_2": {
+      "type": "COM",
+      "val": "MB",
+      "step": "5",
+      "alt-name": "Bracket #2"
+    },
+    "R1": {
+      "type": "COM",
+      "val": "4.7k",
+      "step": "1",
+      "alt-name": "R1"
+    },
+    "R2": {
+      "type": "COM",
+      "val": "47k",
+      "step": "1",
+      "alt-name": "R2"
+    },
+    "R3": {
+      "type": "COM",
+      "val": "47k",
+      "step": "1",
+      "alt-name": "R3"
+    },
+    "R4": {
+      "type": "COM",
+      "val": "5.1k",
+      "step": "1",
+      "alt-name": "R4 MB"
+    },
+    "R5": {
+      "type": "COM",
+      "val": "3k",
+      "step": "1",
+      "alt-name": "R5"
+    },
+    "R6": {
+      "type": "COM",
+      "val": "3k",
+      "step": "1",
+      "alt-name": "R6"
+    },
+    "R7": {
+      "type": "COM",
+      "val": "3k",
+      "step": "1",
+      "alt-name": "R7"
+    },
+    "R8": {
+      "type": "COM",
+      "val": "3k",
+      "step": "1",
+      "alt-name": "R8"
+    },
+    "R9": {
+      "type": "COM",
+      "val": "3k",
+      "step": "1",
+      "alt-name": "R9"
+    },
+    "R10": {
+      "type": "COM",
+      "val": "3k",
+      "step": "1",
+      "alt-name": "R10"
+    },
+    "R11": {
+      "type": "COM",
+      "val": "3k",
+      "step": "1",
+      "alt-name": "R11"
+    },
+    "R12": {
+      "type": "COM",
+      "val": "10k",
+      "step": "1",
+      "alt-name": "R12"
+    },
+    "R13": {
+      "type": "COM",
+      "val": "100k",
+      "step": "1",
+      "alt-name": "R13"
+    },
+    "R14": {
+      "type": "COM",
+      "val": "4.7k",
+      "step": "1",
+      "alt-name": "R14"
+    },
+    "CB1": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "2",
+      "alt-name": "CB1"
+    },
+    "CB2": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "2",
+      "alt-name": "CB2"
+    },
+    "CB3": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "2",
+      "alt-name": "CB3"
+    },
+    "CB4": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "2",
+      "alt-name": "CB4"
+    },
+    "CB5": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "2",
+      "alt-name": "CB5"
+    },
+    "CB6": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "2",
+      "alt-name": "CB6"
+    },
+    "CB7": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "2",
+      "alt-name": "CB7"
+    },
+    "CB8": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "2",
+      "alt-name": "CB8"
+    },
+    "F1": {
+      "type": "COM",
+      "val": "Fuse",
+      "step": "2",
+      "alt-name": "F1"
+    },
+    "F2": {
+      "type": "COM",
+      "val": "Fuse",
+      "step": "2",
+      "alt-name": "F2"
+    },
+    "U1_A": {
+      "type": "COM",
+      "val": "IC SOCKET",
+      "step": "3",
+      "alt-name": "U1"
+    },
+    "U2_A": {
+      "type": "COM",
+      "val": "IC SOCKET",
+      "step": "3",
+      "alt-name": "U2"
+    },
+    "U3_A": {
+      "type": "COM",
+      "val": "IC SOCKET",
+      "step": "3",
+      "alt-name": "U3"
+    },
+    "U4_A": {
+      "type": "COM",
+      "val": "IC SOCKET",
+      "step": "3",
+      "alt-name": "U4"
+    },
+    "CON4": {
+      "type": "COM",
+      "val": "Colour",
+      "step": "3",
+      "alt-name": "CON4"
+    },
+    "CON5": {
+      "type": "COM",
+      "val": "Colour",
+      "step": "3",
+      "alt-name": "CON5"
+    },
+    "CON6": {
+      "type": "COM",
+      "val": "Colour",
+      "step": "3",
+      "alt-name": "CON6"
+    },
+    "BR1": {
+      "type": "COM",
+      "val": "BRIDGE",
+      "step": "3",
+      "alt-name": "BR1"
+    },
+    "C1": {
+      "type": "COM",
+      "val": "220uF",
+      "step": "4",
+      "alt-name": "C1"
+    },
+    "C2": {
+      "type": "COM",
+      "val": "220uF",
+      "step": "4",
+      "alt-name": "C2"
+    },
+    "C3": {
+      "type": "COM",
+      "val": "100uF",
+      "step": "4",
+      "alt-name": "C3"
+    },
+    "C4": {
+      "type": "COM",
+      "val": "100uF",
+      "step": "4",
+      "alt-name": "C4"
+    },
+    "C5": {
+      "type": "COM",
+      "val": "100uF",
+      "step": "4",
+      "alt-name": "C5"
+    },
+    "C6": {
+      "type": "COM",
+      "val": "100uF",
+      "step": "4",
+      "alt-name": "C6"
+    },
+    "CON1A": {
+      "type": "COM",
+      "val": "socket",
+      "step": "5",
+      "alt-name": "CON1A"
+    },
+    "CON2A": {
+      "type": "COM",
+      "val": "socket",
+      "step": "5",
+      "alt-name": "CON2A"
+    },
+    "VR1": {
+      "type": "COM",
+      "val": "20k Pot",
+      "step": "5",
+      "alt-name": "VR1"
+    },
+    "VR2": {
+      "type": "COM",
+      "val": "20k Pot",
+      "step": "5",
+      "alt-name": "VR2"
+    },
+    "VR3": {
+      "type": "COM",
+      "val": "20k Pot",
+      "step": "5",
+      "alt-name": "VR3"
+    },
+    "VR4": {
+      "type": "COM",
+      "val": "20k Pot",
+      "step": "5",
+      "alt-name": "VR4"
+    },
+    "H5": {
+      "type": "COM",
+      "val": "SCREW",
+      "step": "5",
+      "alt-name": "H5"
+    },
+    "R4_1_": {
+      "type": "COM",
+      "val": "220k",
+      "step": "6",
+      "alt-name": "R4 DB"
+    },
+    "LED1": {
+      "type": "COM",
+      "val": "RGB LED",
+      "step": "6",
+      "alt-name": "LED1"
+    },
+    "LED2": {
+      "type": "COM",
+      "val": "RGB LED",
+      "step": "6",
+      "alt-name": "LED2"
+    },
+    "LED3": {
+      "type": "COM",
+      "val": "RGB LED",
+      "step": "6",
+      "alt-name": "LED3"
+    },
+    "SW1": {
+      "type": "COM",
+      "val": "SWITCH",
+      "step": "6",
+      "alt-name": "SW1"
+    },
+    "SW2": {
+      "type": "COM",
+      "val": "SWITCH",
+      "step": "6",
+      "alt-name": "SW2"
+    },
+    "SW3": {
+      "type": "COM",
+      "val": "SWITCH",
+      "step": "6",
+      "alt-name": "SW3"
+    },
+    "SW4": {
+      "type": "COM",
+      "val": "SWITCH",
+      "step": "6",
+      "alt-name": "SW4"
+    },
+    "Bracket_3": {
+      "type": "COM",
+      "val": "DB",
+      "step": "6",
+      "alt-name": "Bracket #3"
+    },
+    "Bracket_4": {
+      "type": "COM",
+      "val": "DB",
+      "step": "6",
+      "alt-name": "Bracket #4"
+    },
+    "Standoff": {
+      "type": "COM",
+      "val": "Standoff",
+      "step": "6",
+      "alt-name": "H5"
+    },
+    "U1_B": {
+      "type": "COM",
+      "val": "NE5532",
+      "step": "7",
+      "alt-name": "U1"
+    },
+    "U2_B": {
+      "type": "COM",
+      "val": "DRV134",
+      "step": "7",
+      "alt-name": "U2"
+    },
+    "U3_B": {
+      "type": "COM",
+      "val": "THAT 1256",
+      "step": "7",
+      "alt-name": "U3"
+    },
+    "U4_B": {
+      "type": "COM",
+      "val": "NE5532",
+      "step": "7",
+      "alt-name": "U4"
+    }
+  },
+  "steps": {
+    "1": "<a href='https://www.diyrecordingequipment.com/pages/colour-palette-rev-d-assembly-guide#Bag1' target='_blank'>Bag 1 in Assembly Guide</a>",
+    "2": "<a href='https://www.diyrecordingequipment.com/pages/colour-palette-rev-d-assembly-guide#Bag2' target='_blank'>Bag 2 in Assembly Guide</a>",
+    "3": "<a href='https://www.diyrecordingequipment.com/pages/colour-palette-rev-d-assembly-guide#Bag3' target='_blank'>Bag 3 in Assembly Guide</a>",
+    "4": "<a href='https://www.diyrecordingequipment.com/pages/colour-palette-rev-d-assembly-guide#Bag4' target='_blank'>Bag 4 in Assembly Guide</a>",
+    "5": "<a href='https://www.diyrecordingequipment.com/pages/colour-palette-rev-d-assembly-guide#Bag5' target='_blank'>Bag 5 in Assembly Guide</a>",
+    "6": "<a href='https://www.diyrecordingequipment.com/pages/colour-palette-rev-d-assembly-guide#Bag6' target='_blank'>Bag 6 in Assembly Guide</a>",
+    "7": "<a href='https://www.diyrecordingequipment.com/pages/colour-palette-rev-d-assembly-guide#Bag7' target='_blank'>Bag 7 in Assembly Guide</a>",
+    "8": "",
+    "T1": "Resistors",
+    "T2": "Small Capacitors, Fuses, Diodes, Ferrite Beads",
+    "T3": "Sockets, Diode Bridges",
+    "T4": "Large Capacitors",
+    "T5": "Pots, Switches, Daughter Board Hardware",
+    "T6": "LEDs, Front Panel Hardware",
+    "T7": "Integrated Circuits",
+    "T8": "Attach Daughter Board"
+  }
+}

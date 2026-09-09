@@ -1,0 +1,70 @@
+<div class="container" id="all">
+<div class="row">
+<div class="col-sm-4" id="left">
+<div id="list"><!-- list --></div>
+<!-- <canvas id="canvas" style="border:2px solid black;" width="200" height="200"> --><!-- </canvas> --></div>
+
+<div class="col-sm-8" id="right">
+<div id="svgContainer"><!-- svg --></div>
+
+<div id="controls"><!-- controls -->
+<div id="myProgress">
+<div id="myBar"></div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+      var buildGuide;
+  var svg = Snap("#svgContainer");
+  var bookmark = null;
+
+  // svg.attr("display", "none");
+  //svg.attr("opacity", "0");
+
+  Snap.load("/assets/OLA5.svg", function(f) {
+    svg.append(f);
+    var kit = svg.select("#KIT");
+    kit.attr("opacity", "0");
+
+    $.getJSON("/js/OLA5.json", function(json) {
+      console.log(json.steps);
+
+      for (com in json.coms) {
+        elem = svg.select("#" + com);
+        // console.log(elem);
+        // console.log("#" + com);
+        for (att in json.coms[com]) {
+          // console.log(json.coms[com]);
+          // console.log(json.coms[com][att]);
+          // console.log(att);
+          var temp = elem.attr(att, json.coms[com][att]);
+          // console.log(temp);
+        }
+      }
+      $(function() {
+        $("#list").accordion({
+          active: false,
+          collapsible: true,
+          heightStyle: "content"
+        });
+        $(".step" + bookmark).click();
+      });
+
+      buildGuide = new BuildGuide(svg, json.steps);
+    });
+  });
+
+
+
+    </script>
+
+<div class="container text-center">
+<div class="footer copyright">
+<p><a href="https://youtu.be/lH7j-AXI4Dk">Click here</a> to watch a short video about how to use the build maps.</p>
+<p>Copyright &copy; 2018, DIY Recording Equipment&nbsp;-&nbsp;<a href="http://www.diyrecordingequipment.com/pages/privacy-policy">Privacy Policy</a></p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,249 @@
+#you-win {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -180px;
+  margin-left: -240px;
+  z-index: 2;
+}
+a.guide {
+  font-size: 0.8em;
+}
+
+.thin {
+  font-weight: 400;
+}
+
+.underline {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+}
+
+button.part-high {
+  background: #3AA3DC !important;
+  outline: none;
+}
+
+button.part-clicked {
+  background-color: #F7F7F7;
+  outline: none;
+}
+
+button.part-unclicked {
+  background-color: #D8D8D8;
+  outline: none;
+}
+
+button.part-button{
+  color: #000000;
+  font-weight: 200;
+  text-align: left;
+  margin: 3.5 7 3.5 0;
+  width: 100%;
+  height: 100%;
+}
+
+.high {
+  opacity: 1;
+}
+
+.clicked {
+  opacity: 0.5;
+}
+
+.unclicked {
+  opacity: 0.5;
+}
+
+button:focus {
+  background-color: #3AA3DC;
+  outline: none;
+}
+
+button:focus.diyre-menu {
+  background-color: #000000;
+  outline: none;
+}
+
+#myProgress {
+  position: relative;
+  margin: 30px 0px;
+  width: 100%;
+  height: 5px;
+  background-color: #F7F7F7;
+  border-radius: 3px;
+}
+
+#myBar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: #3AA3DC;
+  border-radius: 3px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.button, button {
+  border: none;
+  color: white;
+  margin: 3.5px;
+  width: 100%;
+  padding: 0px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  outline: none;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.diyre-menu {
+  background-color: black;
+}
+
+.stick {
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+}
+
+svg {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  z-index: 2;
+}
+
+#svgContainer {
+  background-color: white;
+  padding:15px 0;
+  max-width:1750px;
+  margin:0 auto;
+}
+
+@media only screen and (orientation: portrait) {
+  svg {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: auto;
+    z-index: 2;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  svg {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 2;
+  }
+}
+
+#left {
+  background-color: white;
+}
+
+.my-shadow {
+  box-shadow: 0 8px 6px -6px rgba(100,100,100,1);
+  transition: box-shadow 0.3s ease-in-out;
+  padding-bottom:15px;
+}
+
+#controls {
+  padding-bottom: 30px;
+}
+span.detail{
+  font-size: .8em;
+}
+
+#list {
+  width: 100%;
+  padding: 10px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 60px;
+  grid-gap: 1rem;
+  padding-bottom: 30px;
+}
+.grid-controls{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: 40px;
+  grid-gap: 1rem;
+}
+
+div[id*="ui"] {
+  padding: 10px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a[href*="Bag"] {
+  margin-bottom: 16px;
+}
+
+svg[id*="KIT"]>rect {
+  fill: rgb(255, 255, 255, 255);
+}
+
+svg[id*="KIT"]>rect[id*="highlighter-rect"] {
+  fill: rgb(255, 255, 255, 0);
+  border-radius: 25px;
+  pointer-events: none;
+  transition: opacity 1s;
+  stroke-width: 3;
+  stroke: rgb(255, 255, 255);
+  opacity: 1;
+  animation: myHighlight 0.5s 12 alternate;
+}
+
+g[type="PCB"] {
+  transition: opacity 0.5s;
+}
+
+svg[id*="KIT"]>rect.dark {
+  stroke: black;
+}
+
+@keyframes myHighlight {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+button>* {
+  pointer-events: none;
+}
+.logo {
+    margin:20px 0;
+}
+.logo img {
+    width:72px;
+}
+.title img {
+    float:left
+}
+.title h1 {
+    font-size:17px;
+    margin-left:40px
+}
+.browser {
+    font-size:.8em;
+    float:right;
+}

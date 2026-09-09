@@ -1,0 +1,894 @@
+{
+  "coms": {
+    "MB": {
+      "type": "PCB"
+    },
+    "DB": {
+      "type": "PCB"
+    },
+    "TOP_1_": {
+      "type": "SIDE"
+    },
+    "BOT_1_": {
+      "type": "SIDE"
+    },
+    "TOP_2_": {
+      "type": "SIDE"
+    },
+    "BOT_2_": {
+      "type": "SIDE"
+    },
+    "BG_1_": {
+      "type": "BG"
+    },
+    "BG_2_": {
+      "type": "BG"
+    },
+    "BG_3_": {
+      "type": "BG"
+    },
+    "BG_4_": {
+      "type": "BG"
+    },
+    "X1": {
+      "type": "COM",
+      "val": "Transformer",
+      "step": "15",
+      "alt-name": "X1"
+    },
+    "CB1": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "5",
+      "alt-name": "CB1"
+    },
+    "CB2": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "5",
+      "alt-name": "CB2"
+    },
+    "CB3": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "5",
+      "alt-name": "CB3"
+    },
+    "CB4": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "5",
+      "alt-name": "CB4"
+    },
+    "CB5": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "5",
+      "alt-name": "CB5"
+    },
+    "CB6": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "5",
+      "alt-name": "CB6"
+    },
+    "CB7": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "5",
+      "alt-name": "CB7"
+    },
+    "CB8": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "5",
+      "alt-name": "CB8"
+    },
+    "C2": {
+      "type": "COM",
+      "val": ".1uf",
+      "step": "6",
+      "alt-name": "C2"
+    },
+    "C3": {
+      "type": "COM",
+      "val": "100pF",
+      "step": "6",
+      "alt-name": "C3"
+    },
+    "C23": {
+      "type": "COM",
+      "val": "100pF",
+      "step": "15",
+      "alt-name": "C23"
+    },
+    "C7": {
+      "type": "COM",
+      "val": "100pF",
+      "step": "6",
+      "alt-name": "C7"
+    },
+    "C11": {
+      "type": "COM",
+      "val": "100pF",
+      "step": "6",
+      "alt-name": "C11"
+    },
+    "C8": {
+      "type": "COM",
+      "val": "22uF",
+      "step": "6",
+      "alt-name": "C8"
+    },
+    "C10": {
+      "type": "COM",
+      "val": "22uF",
+      "step": "6",
+      "alt-name": "C10"
+    },
+    "F1": {
+      "type": "COM",
+      "val": "Self-Reset",
+      "step": "5",
+      "alt-name": "F1"
+    },
+    "F2": {
+      "type": "COM",
+      "val": "Self-Reset",
+      "step": "5",
+      "alt-name": "F2"
+    },
+    "RA1": {
+      "type": "COM",
+      "val": "100K Array",
+      "step": "5",
+      "alt-name": "RA1"
+    },
+    "VR4": {
+      "type": "COM",
+      "val": "B20k",
+      "step": "9",
+      "alt-name": "VR4"
+    },
+    "VR3": {
+      "type": "COM",
+      "val": "10K",
+      "step": "9",
+      "alt-name": "VR3"
+    },
+    "VR2": {
+      "type": "COM",
+      "val": "A10K",
+      "step": "9",
+      "alt-name": "VR2"
+    },
+    "R2_Jumper": {
+      "type": "COM",
+      "val": "Jumper",
+      "step": "1",
+      "alt-name": "R2"
+    },
+    "VR1": {
+      "type": "COM",
+      "val": "A10K",
+      "step": "9",
+      "alt-name": "VR1"
+    },
+    "SW2": {
+      "type": "COM",
+      "val": "DPDT",
+      "step": "9",
+      "alt-name": "SW2"
+    },
+    "SW1": {
+      "type": "COM",
+      "val": "SPDT",
+      "step": "9",
+      "alt-name": "SW1"
+    },
+    "OPT2_Connector": {
+      "type": "COM",
+      "val": "CON",
+      "step": "13",
+      "alt-name": "OPT2"
+    },
+    "OPT1_Connector": {
+      "type": "COM",
+      "val": "CON",
+      "step": "13",
+      "alt-name": "OPT1"
+    },
+    "R48": {
+      "type": "COM",
+      "val": "8.8K",
+      "step": "15",
+      "alt-name": "R48"
+    },
+    "R47": {
+      "type": "COM",
+      "val": "15K",
+      "step": "15",
+      "alt-name": "R47"
+    },
+    "R46": {
+      "type": "COM",
+      "val": "47K",
+      "step": "3",
+      "alt-name": "R46"
+    },
+    "R45": {
+      "type": "COM",
+      "val": "47K",
+      "step": "3",
+      "alt-name": "R45"
+    },
+    "R44": {
+      "type": "COM",
+      "val": "47K",
+      "step": "3",
+      "alt-name": "R44"
+    },
+    "R43": {
+      "type": "COM",
+      "val": "47K",
+      "step": "3",
+      "alt-name": "R43"
+    },
+    "R42": {
+      "type": "COM",
+      "val": "7.5K",
+      "step": "3",
+      "alt-name": "R42"
+    },
+    "R41": {
+      "type": "COM",
+      "val": "15K",
+      "step": "3",
+      "alt-name": "R41"
+    },
+    "R40": {
+      "type": "COM",
+      "val": "15K",
+      "step": "3",
+      "alt-name": "R40"
+    },
+    "R39": {
+      "type": "COM",
+      "val": "7.5K",
+      "step": "3",
+      "alt-name": "R39"
+    },
+    "R38": {
+      "type": "COM",
+      "val": "100R",
+      "step": "3",
+      "alt-name": "R38"
+    },
+    "R37": {
+      "type": "COM",
+      "val": "100R",
+      "step": "3",
+      "alt-name": "R37"
+    },
+    "R36": {
+      "type": "COM",
+      "val": "22K",
+      "step": "3",
+      "alt-name": "R36"
+    },
+    "R35": {
+      "type": "COM",
+      "val": "4.7K",
+      "step": "3",
+      "alt-name": "R35"
+    },
+    "R34": {
+      "type": "COM",
+      "val": "100K",
+      "step": "3",
+      "alt-name": "R34"
+    },
+    "R33": {
+      "type": "COM",
+      "val": "4.7K",
+      "step": "3",
+      "alt-name": "R33"
+    },
+    "R32": {
+      "type": "COM",
+      "val": "10K",
+      "step": "2",
+      "alt-name": "R32"
+    },
+    "R31": {
+      "type": "COM",
+      "val": "10K",
+      "step": "2",
+      "alt-name": "R31"
+    },
+    "R30": {
+      "type": "COM",
+      "val": "10K",
+      "step": "2",
+      "alt-name": "R30"
+    },
+    "R29": {
+      "type": "COM",
+      "val": "82K",
+      "step": "2",
+      "alt-name": "R29"
+    },
+    "R28": {
+      "type": "COM",
+      "val": "1M",
+      "step": "2",
+      "alt-name": "R28"
+    },
+    "R27": {
+      "type": "COM",
+      "val": "10K",
+      "step": "2",
+      "alt-name": "R27"
+    },
+    "R26": {
+      "type": "COM",
+      "val": "4.7K",
+      "step": "2",
+      "alt-name": "R26"
+    },
+    "R25": {
+      "type": "COM",
+      "val": "2.2K",
+      "step": "2",
+      "alt-name": "R25"
+    },
+    "R24": {
+      "type": "COM",
+      "val": "2.2K",
+      "step": "2",
+      "alt-name": "R24"
+    },
+    "R23": {
+      "type": "COM",
+      "val": "22K",
+      "step": "2",
+      "alt-name": "R23"
+    },
+    "R22": {
+      "type": "COM",
+      "val": "330R",
+      "step": "2",
+      "alt-name": "R22"
+    },
+    "R21": {
+      "type": "COM",
+      "val": "10K",
+      "step": "2",
+      "alt-name": "R21"
+    },
+    "R20": {
+      "type": "COM",
+      "val": "1M",
+      "step": "2",
+      "alt-name": "R20"
+    },
+    "R19": {
+      "type": "COM",
+      "val": "100K",
+      "step": "2",
+      "alt-name": "R19"
+    },
+    "R18": {
+      "type": "COM",
+      "val": "15K",
+      "step": "2",
+      "alt-name": "R18"
+    },
+    "R17": {
+      "type": "COM",
+      "val": "8.8k",
+      "step": "2",
+      "alt-name": "R17"
+    },
+    "R16": {
+      "type": "COM",
+      "val": "249R",
+      "step": "1",
+      "alt-name": "R16"
+    },
+    "R14": {
+      "type": "COM",
+      "val": "249R",
+      "step": "1",
+      "alt-name": "R14"
+    },
+    "R15": {
+      "type": "COM",
+      "val": "33K",
+      "step": "1",
+      "alt-name": "R15"
+    },
+    "R13": {
+      "type": "COM",
+      "val": "33K",
+      "step": "1",
+      "alt-name": "R13"
+    },
+    "R12": {
+      "type": "COM",
+      "val": "10K",
+      "step": "1",
+      "alt-name": "R12"
+    },
+    "R11": {
+      "type": "COM",
+      "val": "100k",
+      "step": "1",
+      "alt-name": "R11"
+    },
+    "R10": {
+      "type": "COM",
+      "val": "4.7k",
+      "step": "1",
+      "alt-name": "R10"
+    },
+    "R9": {
+      "type": "COM",
+      "val": "1K",
+      "step": "1",
+      "alt-name": "R9"
+    },
+    "R8": {
+      "type": "COM",
+      "val": "6.8K",
+      "step": "1",
+      "alt-name": "R8"
+    },
+    "R7": {
+      "type": "COM",
+      "val": "47K",
+      "step": "1",
+      "alt-name": "R7"
+    },
+    "R6": {
+      "type": "COM",
+      "val": "6.8K",
+      "step": "1",
+      "alt-name": "R6"
+    },
+    "R5": {
+      "type": "COM",
+      "val": "47K",
+      "step": "1",
+      "alt-name": "R5"
+    },
+    "R4": {
+      "type": "COM",
+      "val": "10K",
+      "step": "1",
+      "alt-name": "R4"
+    },
+    "R3": {
+      "type": "COM",
+      "val": "9.1K",
+      "step": "1",
+      "alt-name": "R3"
+    },
+    "R1": {
+      "type": "COM",
+      "val": "47R",
+      "step": "1",
+      "alt-name": "R1"
+    },
+    "Q1": {
+      "type": "COM",
+      "val": "BD139",
+      "step": "7",
+      "alt-name": "Q1"
+    },
+    "LED4_Assembly": {
+      "type": "COM",
+      "val": "OPTOCELL",
+      "step": "13",
+      "alt-name": "LED4 Assembly"
+    },
+    "LED3_Assembly": {
+      "type": "COM",
+      "val": "OPTOCELL",
+      "step": "13",
+      "alt-name": "LED3 Assembly"
+    },
+    "LED2": {
+      "type": "COM",
+      "val": "Red LED",
+      "step": "5",
+      "alt-name": "LED2"
+    },
+    "LED1": {
+      "type": "COM",
+      "val": "Red LED",
+      "step": "5",
+      "alt-name": "LED1"
+    },
+    "IC4_Socket": {
+      "type": "COM",
+      "val": "8-pin Socket",
+      "step": "4",
+      "alt-name": "IC4 Socket"
+    },
+    "IC4": {
+      "type": "COM",
+      "val": "NE5532",
+      "step": "14",
+      "alt-name": "IC4"
+    },
+    "IC3_Socket": {
+      "type": "COM",
+      "val": "14-pin socket",
+      "step": "4",
+      "alt-name": "IC3 Socket"
+    },
+    "IC3": {
+      "type": "COM",
+      "val": "MC33079",
+      "step": "14",
+      "alt-name": "IC3"
+    },
+    "IC2_Socket": {
+      "type": "COM",
+      "val": "8-pin",
+      "step": "4",
+      "alt-name": "IC2_Socket"
+    },
+    "IC2": {
+      "type": "COM",
+      "val": "NE5532",
+      "step": "14",
+      "alt-name": "IC2"
+    },
+    "IC1_Socket": {
+      "type": "COM",
+      "val": "8-pin  Socket",
+      "step": "4",
+      "alt-name": "IC1 Socket"
+    },
+    "IC1": {
+      "type": "COM",
+      "val": "NE5532",
+      "step": "14",
+      "alt-name": "IC1"
+    },
+    "DOA_Sockets": {
+      "type": "COM",
+      "val": "Sockets",
+      "step": "15",
+      "alt-name": "DOA Sockets"
+    },
+    "D3": {
+      "type": "COM",
+      "val": "1N4148",
+      "step": "6",
+      "alt-name": "D3"
+    },
+    "D2": {
+      "type": "COM",
+      "val": "1N4148",
+      "step": "6",
+      "alt-name": "D2"
+    },
+    "D1": {
+      "type": "COM",
+      "val": "1N4148",
+      "step": "6",
+      "alt-name": "D1"
+    },
+    "CON5A": {
+      "type": "COM",
+      "val": "12-pin",
+      "step": "9",
+      "alt-name": "CON5A"
+    },
+    "CON3": {
+      "type": "COM",
+      "val": "3-pin header",
+      "step": "4",
+      "alt-name": "CON3"
+    },
+    "CON2A": {
+      "type": "COM",
+      "val": "Shrouded Header",
+      "step": "4",
+      "alt-name": "CON2A"
+    },
+    "CON1": {
+      "type": "COM",
+      "val": "6-pin header",
+      "step": "4",
+      "alt-name": "CON1"
+    },
+    "C24": {
+      "type": "COM",
+      "val": "220u",
+      "step": "15",
+      "alt-name": "C24"
+    },
+    "C18": {
+      "type": "COM",
+      "val": "100uF",
+      "step": "8",
+      "alt-name": "C18"
+    },
+    "C16": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "6",
+      "alt-name": "C17"
+    },
+    "C17": {
+      "type": "COM",
+      "val": ".1uF",
+      "step": "6",
+      "alt-name": "C16"
+    },
+    "C15": {
+      "type": "COM",
+      "val": "100uF",
+      "step": "8",
+      "alt-name": "C15"
+    },
+    "C13": {
+      "type": "COM",
+      "val": "100uF",
+      "step": "8",
+      "alt-name": "C13"
+    },
+    "C12": {
+      "type": "COM",
+      "val": "220nF",
+      "step": "7",
+      "alt-name": "C12"
+    },
+    "C6": {
+      "type": "COM",
+      "val": "2.2uF",
+      "step": "8",
+      "alt-name": "C6"
+    },
+    "C4": {
+      "type": "COM",
+      "val": "2.2uF",
+      "step": "8",
+      "alt-name": "C4"
+    },
+    "C5": {
+      "type": "COM",
+      "val": "22pF",
+      "step": "7",
+      "alt-name": "C5"
+    },
+    "C9": {
+      "type": "COM",
+      "val": "22pF",
+      "step": "7",
+      "alt-name": "C9"
+    },
+    "C14": {
+      "type": "COM",
+      "val": "22pF",
+      "step": "7",
+      "alt-name": "C14"
+    },
+    "C19": {
+      "type": "COM",
+      "val": "6.8uF",
+      "step": "8",
+      "alt-name": "C19"
+    },
+    "C20": {
+      "type": "COM",
+      "val": "6.8uF",
+      "step": "8",
+      "alt-name": "C20"
+    },
+    "C22": {
+      "type": "COM",
+      "val": "220uF",
+      "step": "8",
+      "alt-name": "C21"
+    },
+    "C21": {
+      "type": "COM",
+      "val": "220uF",
+      "step": "8",
+      "alt-name": "C22"
+    },
+    "C1": {
+      "type": "COM",
+      "val": "100uF",
+      "step": "8",
+      "alt-name": "C1"
+    },
+    "LED5": {
+      "type": "COM",
+      "val": "Red LED",
+      "step": "7",
+      "alt-name": "LED5"
+    },
+    "CON4": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "CON4"
+    },
+    "VR5": {
+      "type": "COM",
+      "val": "2k (202)",
+      "step": "11",
+      "alt-name": "VR5"
+    },
+    "SW5": {
+      "type": "COM",
+      "val": "12-pin",
+      "step": "11",
+      "alt-name": "SW5"
+    },
+    "SW4": {
+      "type": "COM",
+      "val": "6-pin",
+      "step": "11",
+      "alt-name": "SW4"
+    },
+    "SW3": {
+      "type": "COM",
+      "val": "6-pin",
+      "step": "11",
+      "alt-name": "SW3"
+    },
+    "RLED": {
+      "type": "COM",
+      "val": "4.7k",
+      "step": "10",
+      "alt-name": "RLED"
+    },
+    "R50": {
+      "type": "COM",
+      "val": "100R",
+      "step": "10",
+      "alt-name": "R50"
+    },
+    "R49": {
+      "type": "COM",
+      "val": "3.83K",
+      "step": "10",
+      "alt-name": "R49"
+    },
+    "IC5_Socket": {
+      "type": "COM",
+      "val": "18-pin",
+      "step": "10",
+      "alt-name": "IC5 Socket"
+    },
+    "IC5": {
+      "type": "COM",
+      "val": "LM3915",
+      "step": "14",
+      "alt-name": "IC5"
+    },
+    "H5": {
+      "type": "COM",
+      "val": "Bracket",
+      "step": "11",
+      "alt-name": "H5"
+    },
+    "H4": {
+      "type": "COM",
+      "val": "Screw",
+      "step": "11",
+      "alt-name": "H4"
+    },
+    "H3": {
+      "type": "COM",
+      "val": "Screw",
+      "step": "11",
+      "alt-name": "H3"
+    },
+    "H2": {
+      "type": "COM",
+      "val": "Screw",
+      "step": "11",
+      "alt-name": "H2"
+    },
+    "H1": {
+      "type": "COM",
+      "val": "Bracket",
+      "step": "9",
+      "alt-name": "H1"
+    },
+    "CON6": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "CON6"
+    },
+    "CON2B": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "CON2B"
+    },
+    "CON5B": {
+      "type": "COM",
+      "val": "12-pin",
+      "step": "11",
+      "alt-name": "CON5B"
+    },
+    "COM-E025_7_": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "COM-E025_8_"
+    },
+    "COM-E025_6_": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "COM-E025_4_"
+    },
+    "COM-E025_5_": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "COM-E025_3_"
+    },
+    "COM-E025_3_": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "COM-E025"
+    },
+    "COM-E025_1_": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "COM-E025_1_"
+    },
+    "COM-E025_2_": {
+      "type": "COM",
+      "val": "0",
+      "step": "0",
+      "alt-name": "COM-E025_2_"
+    }
+  },
+  "steps": {
+    "1": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag1' target='_blank'>Bag 1.1 in Assembly Guide</a>",
+    "2": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag1' target='_blank'>Bag 1.2 in Assembly Guide</a>",
+    "3": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag1' target='_blank'>Bag 1.3 in Assembly Guide</a>",
+    "4": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag2' target='_blank'>Bag 2 in Assembly Guide</a>",
+    "5": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag3.1' target='_blank'>Bag 3.1 in Assembly Guide</a>",
+    "6": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag3.2' target='_blank'>Bag 3.2 in Assembly Guide</a>",
+    "7": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag3.3' target='_blank'>Bag 3.3 in Assembly Guide</a>",
+    "8": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag4' target='_blank'>Bag 4 in Assembly Guide</a>",
+    "9": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag5' target='_blank'>Bag 5 in Assembly Guide</a>",
+    "10": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag6' target='_blank'>Bag 6.1 in Assembly Guide</a>",
+    "11": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag6' target='_blank'>Bag 6.2 in Assembly Guide</a>",
+    "12": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#DB3' target='_blank'>Check Assembly Guide</a>",
+    "13": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#OPTO' target='_blank'>Check Assembly Guide</a>",
+    "14": "<a href='https://www.diyrecordingequipment.com/pages/ola5-assembly-guide#Bag8' target='_blank'>Bag 8 in Assembly Guide</a>",
+    "15": "<a href='https://www.diyrecordingequipment.com/pages/eqp5-vintage-output-assembly-guide' target='_blank'>Vintage Output Assembly Guide</a>",
+    "T1": ["Bag 1.1", "Resistors #1"],
+    "T2": ["Bag 1.2", "Resistors #2"],
+    "T3": ["Bag 1.3", "Resistors #3"],
+    "T4": ["Bag 2", "Sockets, Headers, Shunts"],
+    "T5": ["Bag 3.1", "Small Caps and Transistors #1"],
+    "T6": ["Bag 3.2", "Small Caps and Transistors #2"],
+    "T7": ["Bag 3.3", "Small Caps and Transistors #3"],
+    "T8": ["Bag 4", "Large Capactitors"],
+    "T9": ["Bag 5", "Switches, Pots, and Headers"],
+    "T10": ["Bag 6.1", "Daughterboard Parts #1"],
+    "T11": ["Bag 6.2", "Daughterboard Parts #2"],
+    "T12": ["Bag 6.3", "Daughterboard Parts #3"],
+    "T13": ["Bag 7", "Opto Cell Parts"],
+    "T14": ["Bag 8", "Integrated Circuits"],
+    "T15": ["Vintage Output", "Optional"]
+  }
+}

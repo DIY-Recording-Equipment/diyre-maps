@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18123762-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-18123762-2');
+  </script>
+  <title>Colour Duo IO Board Interactive Build Map</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="./libs/snap.svg.js"></script>
+  <script src="bg_tools.js"></script>
+  <link href="bg-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="fixed" id="header">
+    <div class="header container">
+      <div class="logo"><img src="https://cdn.shopify.com/s/files/1/0698/2265/t/28/assets/logo.png?827293068455235108"></div>
+      <div class="title">
+          <img height="24" src="https://cdn.shopify.com/s/files/1/0698/2265/files/IBMicon.png?10596201697740015471"
+          width="30" />
+           <h1>Colour Duo IO Board Interactive Build Map</h1>   
+     </div>
+    </div>
+
+  </div>
+<div class="stick">
+    <div id="svgContainer">
+    <!-- svg -->
+    <div id="loading">
+      <img src="./assets/loading.png" type="mime/apng" style="display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;">
+
+    </div>
+    </div>
+    <div class="container" id="left">
+        <div id="controls"></div>
+        <!-- controls -->
+        <div id="myProgress">
+          <div id="myBar"></div>
+        </div>
+
+    </div>  
+</div>
+
+  <div class="container" id="all">
+
+    <div class="row">
+
+      <!-- <div id="divider" class="stick"></div> -->
+      <div id="list">
+        <!-- list -->
+      </div>
+    </div>
+  </div>
+  <img id="you-win" src="./assets/giphy.gif" style="display: none;" onclick="winTgl()">
+  <script>
+    var buildGuide;
+    var svg = Snap("#svgContainer");
+    var bookmark = null;
+    let loadingImage = document.getElementById("loading")
+    
+
+
+
+    Snap.load("assets/duo-io-lite.svg", function (f) {
+
+      svg.append(f);
+
+      var kit = svg.select("#KIT");
+      kit.attr("opacity", "0");
+
+      fetch("assets/data.json").then((res) => {
+
+        return res.json()
+
+      }).then((json) => {
+
+        for (com in json.coms) {
+
+          elem = svg.select("#" + com)
+          console.log(com)
+          for (att in json.coms[com]) {
+
+            var temp = elem.attr(att, json.coms[com][att])
+
+          }
+        }
+        updateLayout()
+        buildGuide = new BuildGuide(svg, json.steps);
+
+      })
+    })
+
+    //LAYOUT MANAGER CODE
+    window.onresize = updateLayout;
+    function updateLayout(x) {
+      if (loadingImage) {
+        loadingImage.remove();
+      }
+      let svgContainer = document.getElementById("svgContainer")
+      let leftElem = document.getElementById("left")
+      leftElem.style.top = parseFloat(svgContainer.getBoundingClientRect().height)
+    }
+
+    window.onscroll = scrollEvent
+
+    function scrollEvent() {
+      let fixed = document.getElementById("header")
+      let leftElem = document.getElementById("left")
+      if (window.scrollY > parseInt(fixed.getBoundingClientRect().height)) {
+        leftElem.classList.add("my-shadow")
+      } else {
+        leftElem.classList.remove("my-shadow")
+      }
+    }
+
+    function hardReset() {
+      if (window.confirm("Save state corrupted. Click OK to reset save.")) {
+        window.localStorage.removeItem(window.location.href + window.location.pathname);
+        location.reload();
+      }
+
+    }
+
+
+
+  </script>
+
+  <div class="container text-center">
+    <div class="footer copyright">
+      <p><a href="https://youtu.be/lH7j-AXI4Dk">Click here</a> to watch a short video about how to use the build maps.
+      </p>
+      <p>Copyright &copy; 2020, DIY Recording Equipment&nbsp;-&nbsp;<a
+          href="http://www.diyrecordingequipment.com/pages/privacy-policy">Privacy Policy</a></p>
+    </div>
+  </div>
+</body>
+
+</html>

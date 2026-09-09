@@ -1,0 +1,982 @@
+{
+  "coms" : {
+		"MB" : {
+			"type" : "PCB"
+		},
+		"DB" : {
+			"type" : "PCB"
+		},
+		"BG-TOP-MB" : {
+			"type" : "BG"
+		},
+		"BG-BOT-MB" : {
+			"type" : "BG"
+		},
+		"BG-TOP-DB" : {
+			"type" : "BG"
+		},
+		"BG-BOT-DB" : {
+			"type" : "BG"
+		},
+		"TOP-MB" : {
+			"type" : "SIDE"
+		},
+		"BOT-MB" : {
+			"type" : "SIDE"
+		},
+		"TOP-DB" : {
+			"type" : "SIDE"
+		},
+		"BOT-DB" : {
+			"type" : "SIDE"
+		},
+		"C1": {
+		    "type": "COM",
+		    "val": "150u",
+		    "step": "5",
+		    "alt-name": "C1"
+		  },
+		"C10": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "5",
+		    "alt-name": "C10"
+		  },
+		  "C11": {
+		    "type": "COM",
+		    "val": "470u",
+		    "step": "1",
+		    "alt-name": "C11"
+		  },
+		  "C12": {
+		    "type": "COM",
+		    "val": "100u",
+		    "step": "1",
+		    "alt-name": "C12"
+		  },
+		  "C13": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "2",
+		    "alt-name": "C13"
+		  },
+		  "C14": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "2",
+		    "alt-name": "C14"
+		  },
+		  "C15": {
+		    "type": "COM",
+		    "val": "100u",
+		    "step": "2",
+		    "alt-name": "C15"
+		  },
+		  "C16": {
+		    "type": "COM",
+		    "val": ".1u",
+		    "step": "2",
+		    "alt-name": "C16"
+		  },
+		  "C17": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "7",
+		    "alt-name": "C17"
+		  },
+		  "C18": {
+		    "type": "COM",
+		    "val": "100u",
+		    "step": "7",
+		    "alt-name": "C18"
+		  },
+		  "C19": {
+		    "type": "COM",
+		    "val": "330p",
+		    "step": "7",
+		    "alt-name": "C19"
+		  },
+		  "C2": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "5",
+		    "alt-name": "C2"
+		  },
+		  "C20": {
+		    "type": "COM",
+		    "val": "100u",
+		    "step": "7",
+		    "alt-name": "C20"
+		  },
+		  "C21": {
+		    "type": "COM",
+		    "val": "4700p",
+		    "step": "7",
+		    "alt-name": "C21"
+		  },
+		  "C22": {
+		    "type": "COM",
+		    "val": "220p",
+		    "step": "7",
+		    "alt-name": "C22"
+		  },
+		  "C23": {
+		    "type": "COM",
+		    "val": "100u",
+		    "step": "7",
+		    "alt-name": "C23"
+		  },
+		  "C24": {
+		    "type": "COM",
+		    "val": "100u",
+		    "step": "7",
+		    "alt-name": "C24"
+		  },
+		  "C25": {
+		    "type": "COM",
+		    "val": ".01u",
+		    "step": "1",
+		    "alt-name": "C25"
+		  },
+		  "C26": {
+		    "type": "COM",
+		    "val": "1000u",
+		    "step": "1",
+		    "alt-name": "C26"
+		  },
+		  "C27": {
+		    "type": "COM",
+		    "val": "470u",
+		    "step": "1",
+		    "alt-name": "C27"
+		  },
+		  "C28": {
+		    "type": "COM",
+		    "val": ".1u",
+		    "step": "1",
+		    "alt-name": "C28"
+		  },
+		  "C29": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "1",
+		    "alt-name": "C29"
+		  },
+		  "C3": {
+		    "type": "COM",
+		    "val": "470u/6.3v",
+		    "step": "5",
+		    "alt-name": "C3"
+		  },
+		  "C30": {
+		    "type": "COM",
+		    "val": "680p",
+		    "step": "6",
+		    "alt-name": "C30"
+		  },
+		  "C31": {
+		    "type": "COM",
+		    "val": "100p",
+		    "step": "6",
+		    "alt-name": "C31"
+		  },
+		  "C32": {
+		    "type": "COM",
+		    "val": "150u",
+		    "step": "6",
+		    "alt-name": "C32"
+		  },
+		  "C33": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "6",
+		    "alt-name": "C33"
+		  },
+		  "C34": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "6",
+		    "alt-name": "C34"
+		  },
+		  "C35": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "6",
+		    "alt-name": "C35"
+		  },
+		  "C36": {
+		    "type": "COM",
+		    "val": "1500p",
+		    "step": "6",
+		    "alt-name": "C36"
+		  },
+		  "C37": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "6",
+		    "alt-name": "C37"
+		  },
+		  "C38": {
+		    "type": "COM",
+		    "val": "1000p",
+		    "step": "6",
+		    "alt-name": "C38"
+		  },
+		  "C39": {
+		    "type": "COM",
+		    "val": "470u/6.3v",
+		    "step": "6",
+		    "alt-name": "C39"
+		  },
+		  "C4": {
+		    "type": "COM",
+		    "val": "1500p",
+		    "step": "5",
+		    "alt-name": "C4"
+		  },
+		  "C40": {
+		    "type": "COM",
+		    "val": "150p",
+		    "step": "3",
+		    "alt-name": "C40"
+		  },
+		  "C5": {
+		    "type": "COM",
+		    "val": "100p",
+		    "step": "5",
+		    "alt-name": "C5"
+		  },
+		  "C6": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "5",
+		    "alt-name": "C6"
+		  },
+		  "C7": {
+		    "type": "COM",
+		    "val": "680p",
+		    "step": "5",
+		    "alt-name": "C7"
+		  },
+		  "C8": {
+		    "type": "COM",
+		    "val": "1000p",
+		    "step": "5",
+		    "alt-name": "C8"
+		  },
+		  "C9": {
+		    "type": "COM",
+		    "val": "22u",
+		    "step": "5",
+		    "alt-name": "C9"
+		  },
+		  "CON1A": {
+		    "type": "COM",
+		    "val": "Socket",
+		    "step": "5",
+		    "alt-name": "CON1A"
+		  },
+		  "CON1B": {
+		    "type": "COM",
+		    "val": "Header",
+		    "step": "4",
+		    "alt-name": "CON1B"
+		  },
+		  "CON2A": {
+		    "type": "COM",
+		    "val": "Socket",
+		    "step": "1",
+		    "alt-name": "CON2A"
+		  },
+		  "CON2B": {
+		    "type": "COM",
+		    "val": "Header",
+		    "step": "6",
+		    "alt-name": "CON2B"
+		  },
+		  "D1": {
+		    "type": "COM",
+		    "val": "1N4004",
+		    "step": "2",
+		    "alt-name": "D1"
+		  },
+		  "D2": {
+		    "type": "COM",
+		    "val": "1N4004",
+		    "step": "1",
+		    "alt-name": "D2"
+		  },
+		  "D3": {
+		    "type": "COM",
+		    "val": "9v/25mA",
+		    "step": "1",
+		    "alt-name": "D3"
+		  },
+		  "F1": {
+		    "type": "COM",
+		    "val": "Fuse",
+		    "step": "1",
+		    "alt-name": "F1"
+		  },
+		  "J1": {
+		    "type": "COM",
+		    "val": "DI",
+		    "step": "1",
+		    "alt-name": "J1"
+		  },
+		  "LED1": {
+		    "type": "COM",
+		    "val": "48v",
+		    "step": "1",
+		    "alt-name": "LED1"
+		  },
+		  "R1": {
+		    "type": "COM",
+		    "val": "15k",
+		    "step": "5",
+		    "alt-name": "R1"
+		  },
+		  "R10": {
+		    "type": "COM",
+		    "val": "68k",
+		    "step": "5",
+		    "alt-name": "R10"
+		  },
+		  "R11": {
+		    "type": "COM",
+		    "val": "47k",
+		    "step": "5",
+		    "alt-name": "R11"
+		  },
+		  "R12": {
+		    "type": "COM",
+		    "val": "2.2k",
+		    "step": "5",
+		    "alt-name": "R12"
+		  },
+		  "R13": {
+		    "type": "COM",
+		    "val": "390R",
+		    "step": "5",
+		    "alt-name": "R13"
+		  },
+		  "R14": {
+		    "type": "COM",
+		    "val": "33k",
+		    "step": "5",
+		    "alt-name": "R14"
+		  },
+		  "R15": {
+		    "type": "COM",
+		    "val": "4.7k",
+		    "step": "1",
+		    "alt-name": "R15"
+		  },
+		  "R16": {
+		    "type": "COM",
+		    "val": "4.7k",
+		    "step": "1",
+		    "alt-name": "R16"
+		  },
+		  "R17": {
+		    "type": "COM",
+		    "val": "1k",
+		    "step": "1",
+		    "alt-name": "R17"
+		  },
+		  "R18": {
+		    "type": "COM",
+		    "val": "6.8k",
+		    "step": "1",
+		    "alt-name": "R18"
+		  },
+		  "R19": {
+		    "type": "COM",
+		    "val": "270R",
+		    "step": "1",
+		    "alt-name": "R19"
+		  },
+		  "R2": {
+		    "type": "COM",
+		    "val": "120k",
+		    "step": "5",
+		    "alt-name": "R2"
+		  },
+		  "R20": {
+		    "type": "COM",
+		    "val": "100R 1W",
+		    "step": "1",
+		    "alt-name": "R20"
+		  },
+		  "R21": {
+		    "type": "COM",
+		    "val": "6.8k",
+		    "step": "1",
+		    "alt-name": "R21"
+		  },
+		  "R22": {
+		    "type": "COM",
+		    "val": "6.8k",
+		    "step": "1",
+		    "alt-name": "R22"
+		  },
+		  "R23": {
+		    "type": "COM",
+		    "val": "2.7k",
+		    "step": "2",
+		    "alt-name": "R23"
+		  },
+		  "R24": {
+		    "type": "COM",
+		    "val": "470k",
+		    "step": "2",
+		    "alt-name": "R24"
+		  },
+		  "R25": {
+		    "type": "COM",
+		    "val": "4.7k",
+		    "step": "2",
+		    "alt-name": "R25"
+		  },
+		  "R26": {
+		    "type": "COM",
+		    "val": "47k",
+		    "step": "2",
+		    "alt-name": "R26"
+		  },
+		  "R27": {
+		    "type": "COM",
+		    "val": "470k",
+		    "step": "2",
+		    "alt-name": "R27"
+		  },
+		  "R28": {
+		    "type": "COM",
+		    "val": "1M",
+		    "step": "2",
+		    "alt-name": "R28"
+		  },
+		  "R29": {
+		    "type": "COM",
+		    "val": "2.2M",
+		    "step": "2",
+		    "alt-name": "R29"
+		  },
+		  "R3": {
+		    "type": "COM",
+		    "val": "51k",
+		    "step": "5",
+		    "alt-name": "R3"
+		  },
+		  "R30": {
+		    "type": "COM",
+		    "val": "100k",
+		    "step": "2",
+		    "alt-name": "R30"
+		  },
+		  "R31": {
+		    "type": "COM",
+		    "val": "120k",
+		    "step": "2",
+		    "alt-name": "R31"
+		  },
+		  "R32": {
+		    "type": "COM",
+		    "val": "2.2k",
+		    "step": "7",
+		    "alt-name": "R32"
+		  },
+		  "R33": {
+		    "type": "COM",
+		    "val": "3.3k",
+		    "step": "7",
+		    "alt-name": "R33"
+		  },
+		  "R34": {
+		    "type": "COM",
+		    "val": "56k",
+		    "step": "7",
+		    "alt-name": "R34"
+		  },
+		  "R35": {
+		    "type": "COM",
+		    "val": "47R 1W",
+		    "step": "7",
+		    "alt-name": "R35"
+		  },
+		  "R36": {
+		    "type": "COM",
+		    "val": "1.2k",
+		    "step": "7",
+		    "alt-name": "R36"
+		  },
+		  "R37": {
+		    "type": "COM",
+		    "val": "18k",
+		    "step": "7",
+		    "alt-name": "R37"
+		  },
+		  "R38": {
+		    "type": "COM",
+		    "val": "33k",
+		    "step": "7",
+		    "alt-name": "R38"
+		  },
+		  "R39": {
+		    "type": "COM",
+		    "val": "1.2k",
+		    "step": "7",
+		    "alt-name": "R39"
+		  },
+		  "R4": {
+		    "type": "COM",
+		    "val": "91R",
+		    "step": "5",
+		    "alt-name": "R4"
+		  },
+		  "R40": {
+		    "type": "COM",
+		    "val": "1.5k",
+		    "step": "7",
+		    "alt-name": "R40"
+		  },
+		  "R41": {
+		    "type": "COM",
+		    "val": "68k",
+		    "step": "7",
+		    "alt-name": "R41"
+		  },
+		  "R42": {
+		    "type": "COM",
+		    "val": "12R 1W",
+		    "step": "1",
+		    "alt-name": "R42"
+		  },
+		  "R43": {
+		    "type": "COM",
+		    "val": "1M",
+		    "step": "1",
+		    "alt-name": "R43"
+		  },
+		  "R44": {
+		    "type": "COM",
+		    "val": "1M",
+		    "step": "1",
+		    "alt-name": "R44"
+		  },
+		  "R45": {
+		    "type": "COM",
+		    "val": "470R 1W",
+		    "step": "1",
+		    "alt-name": "R45"
+		  },
+		  "R46": {
+		    "type": "COM",
+		    "val": "270R",
+		    "step": "1",
+		    "alt-name": "R46"
+		  },
+		  "R47": {
+		    "type": "COM",
+		    "val": "1.5k",
+		    "step": "1",
+		    "alt-name": "R47"
+		  },
+		  "R48": {
+		    "type": "COM",
+		    "val": "1k",
+		    "step": "4",
+		    "alt-name": "R48"
+		  },
+		  "R49": {
+		    "type": "COM",
+		    "val": "1.8k",
+		    "step": "4",
+		    "alt-name": "R49"
+		  },
+		  "R5": {
+		    "type": "COM",
+		    "val": "1.8k",
+		    "step": "5",
+		    "alt-name": "R5"
+		  },
+		  "R50": {
+		    "type": "COM",
+		    "val": "3.9k",
+		    "step": "4",
+		    "alt-name": "R50"
+		  },
+		  "R51": {
+		    "type": "COM",
+		    "val": "3.3k",
+		    "step": "4",
+		    "alt-name": "R51"
+		  },
+		  "R52": {
+		    "type": "COM",
+		    "val": "2.2k",
+		    "step": "4",
+		    "alt-name": "R52"
+		  },
+		  "R53": {
+		    "type": "COM",
+		    "val": "3.9k",
+		    "step": "4",
+		    "alt-name": "R53"
+		  },
+		  "R54": {
+		    "type": "COM",
+		    "val": "12k",
+		    "step": "4",
+		    "alt-name": "R54"
+		  },
+		  "R55": {
+		    "type": "COM",
+		    "val": "12k",
+		    "step": "4",
+		    "alt-name": "R55"
+		  },
+		  "R56": {
+		    "type": "COM",
+		    "val": "2.7k",
+		    "step": "4",
+		    "alt-name": "R56"
+		  },
+		  "R57": {
+		    "type": "COM",
+		    "val": "2.7k",
+		    "step": "4",
+		    "alt-name": "R57"
+		  },
+		  "R58": {
+		    "type": "COM",
+		    "val": "3.3k",
+		    "step": "4",
+		    "alt-name": "R58"
+		  },
+		  "R59": {
+		    "type": "COM",
+		    "val": "3.9k",
+		    "step": "4",
+		    "alt-name": "R59"
+		  },
+		  "R6": {
+		    "type": "COM",
+		    "val": "470R",
+		    "step": "5",
+		    "alt-name": "R6"
+		  },
+		  "R60": {
+		    "type": "COM",
+		    "val": "510R",
+		    "step": "4",
+		    "alt-name": "R60"
+		  },
+		  "R61": {
+		    "type": "COM",
+		    "val": "68R",
+		    "step": "4",
+		    "alt-name": "R61"
+		  },
+		  "R62": {
+		    "type": "COM",
+		    "val": "4.3k",
+		    "step": "4",
+		    "alt-name": "R62"
+		  },
+		  "R63": {
+		    "type": "COM",
+		    "val": "6.8k",
+		    "step": "4",
+		    "alt-name": "R63"
+		  },
+		  "R64": {
+		    "type": "COM",
+		    "val": "330R",
+		    "step": "4",
+		    "alt-name": "R64"
+		  },
+		  "R65": {
+		    "type": "COM",
+		    "val": "120R",
+		    "step": "4",
+		    "alt-name": "R65"
+		  },
+		  "R66": {
+		    "type": "COM",
+		    "val": "18k",
+		    "step": "6",
+		    "alt-name": "R66"
+		  },
+		  "R67": {
+		    "type": "COM",
+		    "val": "120k",
+		    "step": "6",
+		    "alt-name": "R67"
+		  },
+		  "R68": {
+		    "type": "COM",
+		    "val": "68k",
+		    "step": "6",
+		    "alt-name": "R68"
+		  },
+		  "R69": {
+		    "type": "COM",
+		    "val": "470R",
+		    "step": "6",
+		    "alt-name": "R69"
+		  },
+		  "R7": {
+		    "type": "COM",
+		    "val": "1.5k",
+		    "step": "5",
+		    "alt-name": "R7"
+		  },
+		  "R70": {
+		    "type": "COM",
+		    "val": "51k",
+		    "step": "6",
+		    "alt-name": "R70"
+		  },
+		  "R71": {
+		    "type": "COM",
+		    "val": "47k",
+		    "step": "6",
+		    "alt-name": "R71"
+		  },
+		  "R72": {
+		    "type": "COM",
+		    "val": "1.5k",
+		    "step": "6",
+		    "alt-name": "R72"
+		  },
+		  "R73": {
+		    "type": "COM",
+		    "val": "10k",
+		    "step": "6",
+		    "alt-name": "R73"
+		  },
+		  "R74": {
+		    "type": "COM",
+		    "val": "1.8k",
+		    "step": "6",
+		    "alt-name": "R74"
+		  },
+		  "R75": {
+		    "type": "COM",
+		    "val": "5.1k",
+		    "step": "6",
+		    "alt-name": "R75"
+		  },
+		  "R76": {
+		    "type": "COM",
+		    "val": "390R",
+		    "step": "6",
+		    "alt-name": "R76"
+		  },
+		  "R77": {
+		    "type": "COM",
+		    "val": "2.2k",
+		    "step": "6",
+		    "alt-name": "R77"
+		  },
+		  "R78": {
+		    "type": "COM",
+		    "val": "33k",
+		    "step": "6",
+		    "alt-name": "R78"
+		  },
+		  "R8": {
+		    "type": "COM",
+		    "val": "10k",
+		    "step": "5",
+		    "alt-name": "R8"
+		  },
+		  "R9": {
+		    "type": "COM",
+		    "val": "5.1k",
+		    "step": "5",
+		    "alt-name": "R9"
+		  },
+		  "SW1": {
+		    "type": "COM",
+		    "val": "POL",
+		    "step": "1",
+		    "alt-name": "SW1"
+		  },
+		  "SW2": {
+		    "type": "COM",
+		    "val": "Lo Z",
+		    "step": "1",
+		    "alt-name": "SW2"
+		  },
+		  "SW3": {
+		    "type": "COM",
+		    "val": "48",
+		    "step": "1",
+		    "alt-name": "SW3"
+		  },
+		  "SW4": {
+		    "type": "COM",
+		    "val": "LN",
+		    "step": "1",
+		    "alt-name": "SW4"
+		  },
+		  "SW5": {
+		    "type": "COM",
+		    "val": "Gain",
+		    "step": "4",
+		    "alt-name": "SW5"
+		  },
+		  "T1": {
+		    "type": "COM",
+		    "val": "BC109C",
+		    "step": "5",
+		    "alt-name": "T1"
+		  },
+		  "T10": {
+		    "type": "COM",
+		    "val": "ZVP2106A",
+		    "step": "1",
+		    "alt-name": "T10"
+		  },
+		  "T11": {
+		    "type": "COM",
+		    "val": "BC109C",
+		    "step": "6",
+		    "alt-name": "T11"
+		  },
+		  "T12": {
+		    "type": "COM",
+		    "val": "BC109C",
+		    "step": "6",
+		    "alt-name": "T12"
+		  },
+		  "T13": {
+		    "type": "COM",
+		    "val": "BC109C",
+		    "step": "6",
+		    "alt-name": "T13"
+		  },
+		  "T2": {
+		    "type": "COM",
+		    "val": "BC109C",
+		    "step": "5",
+		    "alt-name": "T2"
+		  },
+		  "T3": {
+		    "type": "COM",
+		    "val": "BC109C",
+		    "step": "5",
+		    "alt-name": "T3"
+		  },
+		  "T4": {
+		    "type": "COM",
+		    "val": "2N7000",
+		    "step": "2",
+		    "alt-name": "T4"
+		  },
+		  "T5": {
+		    "type": "COM",
+		    "val": "2SK170",
+		    "step": "2",
+		    "alt-name": "T5"
+		  },
+		  "T6": {
+		    "type": "COM",
+		    "val": "BC109C",
+		    "step": "7",
+		    "alt-name": "T6"
+		  },
+		  "T7": {
+		    "type": "COM",
+		    "val": "BC109C",
+		    "step": "7",
+		    "alt-name": "T7"
+		  },
+		  "T8_T9_H1": {
+		    "type": "COM",
+		    "val": "Assem",
+		    "step": "1",
+		    "alt-name": "T8, T9, H1"
+		  },
+		  "U1": {
+		    "type": "COM",
+		    "val": "Relay",
+		    "step": "2",
+		    "alt-name": "U1"
+		  },
+		  "U2": {
+		    "type": "COM",
+		    "val": "Relay",
+		    "step": "1",
+		    "alt-name": "U2"
+		  },
+		  "VR1": {
+		    "type": "COM",
+		    "val": "5k",
+		    "step": "7",
+		    "alt-name": "VR1"
+		  },
+		  "VR2": {
+		    "type": "COM",
+		    "val": "5k",
+		    "step": "6",
+		    "alt-name": "VR2"
+		  },
+		  "VR3": {
+		    "type": "COM",
+		    "val": "10kA",
+		    "step": "6",
+		    "alt-name": "VR3"
+		  },
+		  "X1": {
+		    "type": "COM",
+		    "val": "VTB9045",
+		    "step": "3",
+		    "alt-name": "X1"
+		  },
+		  "X1A": {
+		    "type": "COM",
+		    "val": "Assembly",
+		    "step": "3",
+		    "alt-name": "X1A"
+		  },
+		  "X1B": {
+		    "type": "COM",
+		    "val": "Header",
+		    "step": "3",
+		    "alt-name": "X1B"
+		  },
+		  "X2": {
+		    "type": "COM",
+		    "val": "Header",
+		    "step": "1",
+		    "alt-name": "X2"
+		  },
+		  "X2-2": {
+		    "type": "COM",
+		    "val": "VTB1148",
+		    "step": "8",
+		    "alt-name": "X2"
+		  }
+	},
+  "steps": {
+	"1": "<a href='https://manuals.diy.re/73p2#mcb_toc_head6' target='_blank'>Bag 1 in Assembly Guide</a>",
+	"2": "<a href='https://manuals.diy.re/73p2#mcb_toc_head24' target='_blank'>Bag 2 in Assembly Guide</a>",
+	"3": "<a href='https://manuals.diy.re/73p2#mcb_toc_head27' target='_blank'>Bag 3 in Assembly Guide</a>",
+	"4": "<a href='https://manuals.diy.re/73p2#mcb_toc_head32' target='_blank'>Bag 4 in Assembly Guide</a>",
+	"5": "<a href='https://manuals.diy.re/73p2#mcb_toc_head37' target='_blank'>Bag 5 in Assembly Guide</a>",
+	"6": "<a href='https://manuals.diy.re/73p2#mcb_toc_head42' target='_blank'>Bag 6 in Assembly Guide</a>",
+	"7": "<a href='https://manuals.diy.re/73p2#mcb_toc_head47' target='_blank'>Bag 7 in Assembly Guide</a>",
+	"8": "<a href='https://manuals.diy.re/73p2#mcb_toc_head52' target='_blank'>Bag 8 in Assembly Guide</a>",
+	"T1": ["Bag 1", "Power and Miscellaneous"],
+	"T2": ["Bag 2", "Direct Input"],
+	"T3": ["Bag 3", "Balanced Input"],
+	"T4": ["Bag 4", "Gain"],
+	"T5": ["Bag 5", "PRE 1"],
+	"T6": ["Bag 6", "PRE 2"],
+	"T7": ["Bag 7", "OUTPUT"],
+	"T8": ["Bag 8", "Chassis"]
+	}
+}

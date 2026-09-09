@@ -1,0 +1,108 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18123762-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-18123762-2');
+</script>
+	<title>OLA5 Build Map</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" /><!-- <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0698/2265/files/bootstrap.min.css?13204635692899657925">
+    <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/s/files/1/0698/2265/files/bg-style-500.css?7642838347615405851">-->
+	<link href="../styles/bootstrap.min.css" rel="stylesheet" />
+	<link href="../styles/bg-style-500.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script> --><!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>--><script src="https://maps.diy.re/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script><script type="text/javascript" src="https://cdn.shopify.com/s/files/1/0698/2265/files/snap.svg.js?12799203819914107341"></script><!--<script src="data.js"></script>--><!-- <script src="igb_game.js"></script> --><script src="../bg_tools_500_series.js"></script><script src="https://cdn.shopify.com/s/files/1/0698/2265/files/jquery-ui.min.js?13204635692899657925"></script>
+</head>
+<body>
+<div class="header container">
+<div class="logo"><img src="https://cdn.shopify.com/s/files/1/0698/2265/t/28/assets/logo.png?827293068455235108" /></div>
+</div>
+
+<div class="container title text-center">
+<div><img height="48" src="https://cdn.shopify.com/s/files/1/0698/2265/files/IBMicon.png?10596201697740015471" width="60" /></div>
+
+<h3>OLA5 Interactive Build Map</h3>
+</div>
+
+<div class="container" id="all">
+<div class="row">
+<div class="col-sm-4" id="left">
+<div id="list"><!-- list --></div>
+<!-- <canvas id="canvas" style="border:2px solid black;" width="200" height="200"> --><!-- </canvas> --></div>
+
+<div class="col-sm-8" id="right">
+<div id="svgContainer"><!-- svg --></div>
+
+<div id="controls"><!-- controls -->
+<div id="myProgress">
+<div id="myBar"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+      var buildGuide;
+      var svg = Snap("#svgContainer");
+      var bookmark = null;
+
+      // svg.attr("display", "none");
+      //svg.attr("opacity", "0");
+
+      Snap.load("svg/OLA5 IBM Final V3.svg", function(f){
+        svg.append(f);
+        var kit  = svg.select("#KIT");
+        kit.attr("opacity", "0");
+        //console.log("test");
+        $.getJSON("lib/OLA5-buildguide-data-220118b.json",function(json){
+          //console.log(json.length);
+
+          for(com in json.coms){
+            console.log("#" + com);
+            elem = svg.select("#"+com);
+            //console.log(elem + " -- " + com);
+            
+            for(att in json.coms[com]){
+              // console.log(json.coms[com]);
+              // console.log(jso/\n.coms[com][att]);
+              // console.log(att);
+              var temp = elem.attr(att, json.coms[com][att]);
+              // console.log(temp);
+            }
+          }
+          main(json.steps);
+        });
+       });
+
+
+
+      function main(steps) {
+        $( function() {
+          $( "#list" ).accordion({
+          active: false,
+          collapsible: true,
+          heightStyle: "content"
+      });
+          $(".step" + bookmark).click();
+      } );
+
+
+        buildGuide = new BuildGuide(svg, steps);
+
+
+
+
+      };
+
+
+    </script>
+
+<div class="container text-center">
+<div class="footer copyright">
+<p><a href="https://youtu.be/lH7j-AXI4Dk">Click here</a> to watch a short video about how to use the build maps.</p>
+<p>Copyright &copy; 2018, DIY Recording Equipment&nbsp;-&nbsp;<a href="http://www.diyrecordingequipment.com/pages/privacy-policy">Privacy Policy</a></p>
+</div>
+</div>
+</body>
+</html>

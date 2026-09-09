@@ -1,0 +1,385 @@
+{ "coms":{
+        "MB": {
+          "type": "PCB"
+        },
+        "DB": {
+          "type": "PCB"
+        },
+        "BOT": {
+          "type": "SIDE"
+        },
+        "TOP": {
+          "type": "SIDE"
+        },
+        "TOP_1_": {
+          "type": "SIDE"
+        },
+        "BOT_1_": {
+          "type": "SIDE"
+        },
+        "BG": {
+          "type": "BG"
+        },
+        "BG_1_": {
+          "type": "BG"
+        },
+        "BG_2_": {
+          "type": "BG"
+        },
+        "BG_3_": {
+          "type": "BG"
+        },
+        "PARTS": {
+          "type": "PARTS"
+        },
+        "PARTS_2_": {
+          "type": "PARTS"
+        },
+        "PARTS_1_": {
+          "type": "PARTS"
+        },
+        "PARTS_3_": {
+          "type": "PARTS"
+        },
+        "H4": {
+          "type": "COM",
+          "val": "SCREW",
+          "step": "5"
+        },
+        "H3": {
+          "type": "COM",
+          "val": "SCREW",
+          "step": "5"
+        },
+        "CM1": {
+          "type": "COM",
+          "val": "DIP 8-PIN",
+          "step": "3"
+        },
+        "H1": {
+          "type": "COM",
+          "val": "BRACKET",
+          "step": "5"
+        },
+        "H2": {
+          "type": "COM",
+          "val": "BRACKET",
+          "step": "5"
+        },
+        "BR2": {
+          "type": "COM",
+          "val": "BRIDGE",
+          "step": "3"
+        },
+        "BR1": {
+          "type": "COM",
+          "val": "BRIDGE",
+          "step": "3"
+        },
+        "U3_B": {
+          "type": "COM",
+          "val": "THAT 1646",
+          "step": "7"
+        },
+        "U1_A": {
+          "type": "COM",
+          "val": "SOCKET",
+          "step": "3"
+        },
+        "U1_B": {
+          "type": "COM",
+          "val": "THAT 1512",
+          "step": "7"
+        },
+        "U2_A": {
+          "type": "COM",
+          "val": "SOCKET",
+          "step": "3"
+        },
+        "U2_B": {
+          "type": "COM",
+          "val": "MC33072P",
+          "step": "7"
+        },
+        "U3_A": {
+          "type": "COM",
+          "val": "SOCKET",
+          "step": "3"
+        },
+        "CB5": {
+          "type": "COM",
+          "val": ".1UF",
+          "step": "2"
+        },
+        "C5": {
+          "type": "COM",
+          "val": "470PF",
+          "step": "2"
+        },
+        "C4": {
+          "type": "COM",
+          "val": "470PF",
+          "step": "2"
+        },
+        "CB4": {
+          "type": "COM",
+          "val": ".1UF",
+          "step": "2"
+        },
+        "CB3": {
+          "type": "COM",
+          "val": ".1UF",
+          "step": "2"
+        },
+        "CB2": {
+          "type": "COM",
+          "val": ".1UF",
+          "step": "2"
+        },
+        "CB1": {
+          "type": "COM",
+          "val": ".1UF",
+          "step": "2"
+        },
+        "CB6": {
+          "type": "COM",
+          "val": ".1UF",
+          "step": "2"
+        },
+        "C7": {
+          "type": "COM",
+          "val": "6.8UF",
+          "step": "4"
+        },
+        "C9": {
+          "type": "COM",
+          "val": "6.8UF",
+          "step": "4"
+        },
+        "C6": {
+          "type": "COM",
+          "val": "6.8UF",
+          "step": "4"
+        },
+        "R6": {
+          "type": "COM",
+          "val": "10R",
+          "step": "1"
+        },
+        "R4": {
+          "type": "COM",
+          "val": "6.8K",
+          "step": "1"
+        },
+        "R14": {
+          "type": "COM",
+          "val": "4.7R",
+          "step": "1"
+        },
+        "R3": {
+          "type": "COM",
+          "val": "6.8K",
+          "step": "1"
+        },
+        "R1": {
+          "type": "COM",
+          "val": "33K",
+          "step": "1"
+        },
+        "R2": {
+          "type": "COM",
+          "val": "47K",
+          "step": "1"
+        },
+        "R13": {
+          "type": "COM",
+          "val": "1.8K",
+          "step": "1"
+        },
+        "R10": {
+          "type": "COM",
+          "val": "1.8K",
+          "step": "1"
+        },
+        "R12": {
+          "type": "COM",
+          "val": "1.8K",
+          "step": "1"
+        },
+        "R11": {
+          "type": "COM",
+          "val": "220R",
+          "step": "1"
+        },
+        "R9": {
+          "type": "COM",
+          "val": "1.8K",
+          "step": "1"
+        },
+        "R8": {
+          "type": "COM",
+          "val": "4.7K",
+          "step": "1"
+        },
+        "R16": {
+          "type": "COM",
+          "val": "3K",
+          "step": "1"
+        },
+        "R15": {
+          "type": "COM",
+          "val": "3K",
+          "step": "1"
+        },
+        "R7": {
+          "type": "COM",
+          "val": "100K",
+          "step": "1"
+        },
+        "R5": {
+          "type": "COM",
+          "val": "10R",
+          "step": "1"
+        },
+        "F1": {
+          "type": "COM",
+          "val": "FUSE",
+          "step": "2"
+        },
+        "F2": {
+          "type": "COM",
+          "val": "FUSE",
+          "step": "2"
+        },
+        "D2": {
+          "type": "COM",
+          "val": "1N914",
+          "step": "2"
+        },
+        "D1": {
+          "type": "COM",
+          "val": "1N914",
+          "step": "2"
+        },
+        "FB2": {
+          "type": "COM",
+          "val": "FERRITE",
+          "step": "2"
+        },
+        "FB1": {
+          "type": "COM",
+          "val": "FERRITE",
+          "step": "2"
+        },
+        "C10": {
+          "type": "COM",
+          "val": "100UF 25V",
+          "step": "4"
+        },
+        "C3": {
+          "type": "COM",
+          "val": "100UF 63V",
+          "step": "4"
+        },
+        "C2": {
+          "type": "COM",
+          "val": "220UF",
+          "step": "4"
+        },
+        "C1": {
+          "type": "COM",
+          "val": "220UF",
+          "step": "4"
+        },
+        "C8": {
+          "type": "COM",
+          "val": "3300UF",
+          "step": "4"
+        },
+        "C11": {
+          "type": "COM",
+          "val": "100UF 25V",
+          "step": "4"
+        },
+        "VR2": {
+          "type": "COM",
+          "val": "1K",
+          "step": "5"
+        },
+        "VR1": {
+          "type": "COM",
+          "val": "1K",
+          "step": "5"
+        },
+        "CON4": {
+          "type": "COM",
+          "val": "PINS",
+          "step": "5"
+        },
+        "CON3": {
+          "type": "COM",
+          "val": "PINS",
+          "step": "5"
+        },
+        "CON2": {
+          "type": "COM",
+          "val": "SOCKET",
+          "step": "5"
+        },
+        "CON1": {
+          "type": "COM",
+          "val": "SOCKET",
+          "step": "5"
+        },
+        "SW3": {
+          "type": "COM",
+          "val": "TGL SWITCH",
+          "step": "5"
+        },
+        "SW2": {
+          "type": "COM",
+          "val": "TGL SWITCH",
+          "step": "5"
+        },
+        "SW1": {
+          "type": "COM",
+          "val": "TGL SWITCH",
+          "step": "5"
+        },
+        "LED2": {
+          "type": "COM",
+          "val": "RBG LED",
+          "step": "6"
+        },
+        "LED1": {
+          "type": "COM",
+          "val": "RED LED",
+          "step": "6"
+        },
+        "SW4": {
+          "type": "COM",
+          "val": "TGL SWITCH",
+          "step": "5"
+        }
+
+      },
+      "steps":{
+        "1": "Bend resistor leads and poputlate the board.",
+        "2": "I can make up instructions...",
+        "3": "really I can.",
+        "4": "But would there be a point...",
+        "5": "to telling you what to do?",
+        "6": "Especially if,...",
+        "7": "no one knows what they want?",
+        "8": "Forgive me.",
+        "T1": "Resistors",
+        "T2": "Small Capacitors, Fuses, Diodes, Ferrite Beads",
+        "T3": "Sockets, Diode Bridges",
+        "T4": "Large Capacitors",
+        "T5": "Pots, Swtiches, Daughter Board Hardware",
+        "T6": "LEDs, Front Panel Hardware",
+        "T7": "Integrated Circuits",
+        "T8": "Attach Daughter Board"
+      }
+
+}
