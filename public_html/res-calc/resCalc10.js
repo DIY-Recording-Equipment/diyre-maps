@@ -189,7 +189,7 @@ this.mainResSort = function(){
 
 
 
-      Snap.load("https://cdn.shopify.com/s/files/1/0698/2265/files/Resistor.svg?5244623991665678927", function(f){
+      Snap.load("Resistor.svg", function(f){
           resSvg = Snap("#resistor-svg-wrapper");
             console.log(f);
           resSvg.append(f);
